@@ -388,11 +388,33 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                         });
                     };
 
+                    const renameHeaderTitle = () => {
+                        const header = document.querySelector('header, nav, mat-toolbar, .mat-toolbar, [role="banner"], [class*="header"], [class*="top-bar"], [class*="app-bar"], app-header, header-component');
+                        if (header) {
+                            const walker = document.createTreeWalker(header, NodeFilter.SHOW_TEXT, null, false);
+                            let node;
+                            while (node = walker.nextNode()) {
+                                if (node.nodeValue) {
+                                    if (node.nodeValue.includes('Gemini Notebook')) {
+                                        node.nodeValue = node.nodeValue.replace(/Gemini Notebook/g, 'Obsidian Notebook');
+                                    } else if (node.nodeValue.trim() === 'NotebookLM' || node.nodeValue.includes('NotebookLM')) {
+                                        node.nodeValue = node.nodeValue.replace(/NotebookLM/g, 'Obsidian Notebook');
+                                    }
+                                }
+                            }
+                        }
+                        if (document.title && (document.title.includes('Gemini Notebook') || document.title.includes('NotebookLM'))) {
+                            document.title = document.title.replace(/Gemini Notebook|NotebookLM/g, 'Obsidian Notebook');
+                        }
+                    };
+
                     makePureBlack();
+                    renameHeaderTitle();
 
                     if (!window.__obsidianAmoledObserver) {
                         window.__obsidianAmoledObserver = new MutationObserver(() => {
                             makePureBlack();
+                            renameHeaderTitle();
                         });
                         window.__obsidianAmoledObserver.observe(document.body || document.documentElement, {
                             childList: true,
@@ -405,7 +427,7 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
             `;
             webview.executeJavaScript(jsCode);
         } catch (err) {
-            console.error('Failed to inject AMOLED theme:', err);
+            console.error('Failed to inject AMOLED theme & title rename:', err);
         }
     }
 

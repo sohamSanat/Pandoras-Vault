@@ -146,12 +146,23 @@
               "icon": "layout-dashboard",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "dc71824e6f585acc",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 243.5
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {

@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "44bb20f35f71ffba",
+        "id": "2beb7bfb16cdcdf2",
         "type": "tabs",
         "children": [
           {
-            "id": "a5c2c8ec0d24f29a",
+            "id": "9c0f357d3a997f07",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07 Notes/hello world.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hello world"
+              "title": "New tab"
             }
           }
         ]
@@ -185,8 +181,9 @@
       "watchlog:Watchlog": false
     }
   },
-  "active": "a5c2c8ec0d24f29a",
+  "active": "9c0f357d3a997f07",
   "lastOpenFiles": [
+    "07 Notes/hello world yet again.md",
     "07 Notes/hello world.md",
     "07 Notes/yoo gang whatsup.md",
     "2nd-Brain/README.md",
@@ -218,7 +215,6 @@
     "07 Notes/anime.md",
     "07 Notes/Piracy.md",
     "07 Notes/Presentation.md",
-    "07 Notes/Animation.md",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/plugin-data.json",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-highlights.json",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-progress.json",

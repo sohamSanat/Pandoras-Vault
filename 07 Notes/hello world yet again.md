@@ -1,6 +1,6 @@
 ---
 banner:
-  - - WednesdayBanner.avif
+  - - TuesdayBanner.avif
 banner-y: 50
 banner-x: 30
 content-start: 200
@@ -16,7 +16,7 @@ date: 2026-08-22
 tags:
   - "#type/note"
 ---
-# ✧ hello world
+# ✧ hello world yet again
 
 ---
 
@@ -24,3 +24,4 @@ tags:
 
 ---
 
+how are we my gs i hope we are bing chillin.

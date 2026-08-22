@@ -4,6 +4,129 @@ const NOTEBOOKLM_URL = 'https://notebooklm.google.com';
 // Firefox desktop user-agent bypasses Google's Chromium-internal checks that block embedded Electron logins
 const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0';
 
+const AMOLED_CSS = `
+    :root {
+        --mat-app-background-color: #000000 !important;
+        --mat-sys-surface: #000000 !important;
+        --mat-sys-surface-container: #0a0e17 !important;
+        --mat-sys-surface-container-low: #000000 !important;
+        --mat-sys-surface-container-lowest: #000000 !important;
+        --mat-sys-background: #000000 !important;
+        --mdc-theme-background: #000000 !important;
+        --mdc-theme-surface: #0a0e17 !important;
+        --mdc-dialog-container-color: #0a0e17 !important;
+        background: #000000 !important;
+        background-color: #000000 !important;
+    }
+
+    html, body, 
+    [class*="app-container"], 
+    [class*="main-container"], 
+    [class*="content-container"],
+    [class*="page-container"],
+    [class*="root-container"],
+    main, 
+    mat-drawer-container, 
+    mat-drawer-content, 
+    mat-sidenav-container, 
+    mat-sidenav-content,
+    .mat-drawer-container, 
+    .mat-drawer-content,
+    .mat-sidenav-container, 
+    .mat-sidenav-content {
+        background: #000000 !important;
+        background-color: #000000 !important;
+    }
+
+    header, 
+    nav, 
+    .top-app-bar, 
+    .app-header, 
+    [role="banner"],
+    [class*="header"],
+    [class*="app-bar"],
+    [class*="top-bar"] {
+        background: #000000 !important;
+        background-color: #000000 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    }
+
+    .notebook-card, 
+    [class*="notebook-card"], 
+    .create-card, 
+    .notebook-item,
+    [class*="project-card"],
+    mat-card {
+        background: #0a0e17 !important;
+        background-color: #0a0e17 !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        border-radius: 16px !important;
+    }
+
+    .notebook-card:hover, 
+    [class*="notebook-card"]:hover, 
+    .create-card:hover,
+    mat-card:hover {
+        background: #121824 !important;
+        background-color: #121824 !important;
+        border-color: rgba(56, 189, 248, 0.35) !important;
+    }
+
+    [class*="source-panel"], 
+    [class*="studio-panel"], 
+    [class*="chat-panel"], 
+    [class*="panel-container"],
+    [class*="sources-container"],
+    [class*="chat-container"],
+    [class*="notes-container"],
+    [class*="studio-container"],
+    [class*="drawer"] {
+        background: #000000 !important;
+        background-color: #000000 !important;
+        border-color: rgba(255, 255, 255, 0.08) !important;
+    }
+
+    textarea, 
+    input, 
+    [class*="chat-input"],
+    [class*="query-input"],
+    [class*="search-box"],
+    [class*="input-container"] {
+        background: #0a0e17 !important;
+        background-color: #0a0e17 !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        color: #f8fafc !important;
+    }
+
+    mat-dialog-container, 
+    [role="dialog"], 
+    .mat-mdc-menu-panel, 
+    .mat-menu-panel,
+    [class*="menu-panel"],
+    [class*="popup"],
+    [class*="dialog"] {
+        background: #0c1017 !important;
+        background-color: #0c1017 !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8) !important;
+    }
+
+    ::-webkit-scrollbar {
+        width: 6px !important;
+        height: 6px !important;
+    }
+    ::-webkit-scrollbar-track {
+        background: #000000 !important;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: rgba(255, 255, 255, 0.18) !important;
+        border-radius: 4px !important;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgba(56, 189, 248, 0.5) !important;
+    }
+`;
+
 class ObsidianBookLmModal extends obsidian.Modal {
     constructor(app, plugin) {
         super(app);
@@ -60,6 +183,9 @@ class ObsidianBookLmModal extends obsidian.Modal {
         contentEl.empty();
         contentEl.addClass('obsidian-booklm-content');
 
+        // Apply AMOLED Theme immediately upon opening
+        this.plugin.injectAmoledTheme();
+
         // Show dark loading screen that fades out
         const rootSplit = this.app.workspace.rootSplit;
         const rect = (rootSplit && rootSplit.containerEl) ? rootSplit.containerEl.getBoundingClientRect() : { top: 0, left: 0, width: window.innerWidth, height: window.innerHeight, right: window.innerWidth };
@@ -82,7 +208,7 @@ class ObsidianBookLmModal extends obsidian.Modal {
             setTimeout(() => {
                 loadingOverlay.remove();
             }, 600);
-        }, 3000);
+        }, 2500);
 
         // Floating controls bar: [ Back | Home | Reload | Close ]
         const controls = document.createElement('div');
@@ -208,6 +334,33 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
         }
     }
 
+    injectAmoledTheme() {
+        if (!this.notebookIframe) return;
+        const webview = this.notebookIframe;
+
+        try {
+            if (webview.insertCSS) {
+                webview.insertCSS(AMOLED_CSS);
+            }
+            const jsCode = `
+                (function() {
+                    let style = document.getElementById('obsidian-amoled-theme');
+                    if (!style) {
+                        style = document.createElement('style');
+                        style.id = 'obsidian-amoled-theme';
+                        (document.head || document.documentElement).appendChild(style);
+                    }
+                    style.textContent = ${JSON.stringify(AMOLED_CSS)};
+                    document.documentElement.style.setProperty('background', '#000000', 'important');
+                    document.body.style.setProperty('background', '#000000', 'important');
+                })();
+            `;
+            webview.executeJavaScript(jsCode);
+        } catch (err) {
+            console.error('Failed to inject AMOLED theme:', err);
+        }
+    }
+
     createPersistentIframe() {
         if (this.notebookIframe) return;
 
@@ -242,9 +395,18 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                         Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
                     } catch(e) {}
                 `);
+                this.injectAmoledTheme();
             } catch (err) {
                 console.error('NotebookLM webview dom-ready setup error:', err);
             }
+        });
+
+        webview.addEventListener('did-navigate', () => {
+            this.injectAmoledTheme();
+        });
+
+        webview.addEventListener('did-navigate-in-page', () => {
+            this.injectAmoledTheme();
         });
 
         // Handle navigation and popups cleanly inside webview

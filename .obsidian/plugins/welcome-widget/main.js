@@ -69,6 +69,32 @@ class WelcomeWidgetView extends obsidian.ItemView {
         hubSection.appendChild(btn2);
         hubSection.appendChild(btn3);
         hubSection.appendChild(btn4);
+
+        // ── Section 3: ObsidianBookLm (NotebookLM Card) ──
+        const booklmContainer = container.createDiv({ cls: 'notebooklm-widget-container' });
+        
+        const booklmCard = booklmContainer.createDiv({ cls: 'notebooklm-widget-card' });
+        
+        const booklmHeader = booklmCard.createDiv({ cls: 'notebooklm-header' });
+        const booklmBadge = booklmHeader.createDiv({ cls: 'notebooklm-badge' });
+        booklmBadge.innerText = 'AI Research';
+        const booklmDot = booklmHeader.createDiv({ cls: 'notebooklm-dot' });
+
+        const booklmContent = booklmCard.createDiv({ cls: 'notebooklm-body' });
+        const booklmTitle = booklmContent.createDiv({ cls: 'notebooklm-title' });
+        booklmTitle.innerText = 'NotebookLM';
+        const booklmSubtitle = booklmContent.createDiv({ cls: 'notebooklm-subtitle' });
+        booklmSubtitle.innerText = 'Launch Notebook & Audio Overview';
+
+        booklmCard.addEventListener('click', () => {
+            if (this.app.commands.commands['obsidian-booklm:open-notebooklm']) {
+                this.app.commands.executeCommandById('obsidian-booklm:open-notebooklm');
+            } else if (this.app.plugins.plugins['obsidian-booklm']) {
+                this.app.plugins.plugins['obsidian-booklm'].openNotebookLm();
+            } else {
+                window.open('https://notebooklm.google.com', '_blank');
+            }
+        });
     }
 
     async onClose() {

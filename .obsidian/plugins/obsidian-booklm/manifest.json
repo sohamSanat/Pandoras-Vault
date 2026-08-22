@@ -1,0 +1,9 @@
+{
+    "id": "obsidian-booklm",
+    "name": "ObsidianBookLm",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Seamless Google NotebookLM integration for your Obsidian vault.",
+    "author": "Antigravity",
+    "isDesktopOnly": true
+}

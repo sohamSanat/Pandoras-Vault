@@ -61,9 +61,14 @@ class WelcomeWidgetView extends obsidian.ItemView {
             }
         );
 
+        const btn4 = this.createTubeButton('Fitness Hub', () => {
+            // Functionality to be added later
+        });
+
         hubSection.appendChild(btn1);
         hubSection.appendChild(btn2);
         hubSection.appendChild(btn3);
+        hubSection.appendChild(btn4);
     }
 
     async onClose() {

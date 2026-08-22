@@ -24,7 +24,7 @@
   "treeStructure": false,
   "refreshSourceControl": true,
   "basePath": "2nd-Brain",
-  "differentIntervalCommitAndPush": true,
+  "differentIntervalCommitAndPush": false,
   "changedFilesInStatusBar": false,
   "showedMobileNotice": true,
   "refreshSourceControlTimer": 7000,

@@ -236,7 +236,7 @@
 .mini-graph-widget-container {
     position: relative;
     width: 100%;
-    height: 350px;
+    height: 200px;
     flex-shrink: 0;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 20px;

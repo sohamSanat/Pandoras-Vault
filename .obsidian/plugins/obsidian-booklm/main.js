@@ -1,7 +1,8 @@
 const obsidian = require('obsidian');
 
 const NOTEBOOKLM_URL = 'https://notebooklm.google.com';
-const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36';
+// Firefox desktop user-agent bypasses Google's Chromium-internal checks that block embedded Electron logins
+const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0';
 
 class ObsidianBookLmModal extends obsidian.Modal {
     constructor(app, plugin) {
@@ -45,9 +46,9 @@ class ObsidianBookLmModal extends obsidian.Modal {
                     webview.style.height = `${rect.height}px`;
                 }
 
-                if (this.plugin.closeButton) {
-                    this.plugin.closeButton.style.top = `${rect.top + 12}px`;
-                    this.plugin.closeButton.style.left = `${rect.right - 46}px`;
+                if (this.plugin.controlsBar) {
+                    this.plugin.controlsBar.style.top = `${rect.top + 10}px`;
+                    this.plugin.controlsBar.style.left = `${rect.right - 145}px`;
                 }
             }
         };
@@ -83,17 +84,56 @@ class ObsidianBookLmModal extends obsidian.Modal {
             }, 600);
         }, 3000);
 
-        // Floating close button
+        // Floating controls bar: [ Back | Home | Reload | Close ]
+        const controls = document.createElement('div');
+        controls.className = 'obsidian-booklm-controls';
+        controls.style.top = `${rect.top + 10}px`;
+        controls.style.left = `${rect.right - 145}px`;
+
+        // Back button
+        const backBtn = document.createElement('div');
+        backBtn.className = 'obsidian-booklm-ctrl-btn';
+        backBtn.innerHTML = '←';
+        backBtn.title = 'Back';
+        backBtn.onclick = () => {
+            const wv = this.plugin.notebookIframe;
+            if (wv && wv.canGoBack && wv.canGoBack()) wv.goBack();
+        };
+
+        // Home button
+        const homeBtn = document.createElement('div');
+        homeBtn.className = 'obsidian-booklm-ctrl-btn';
+        homeBtn.innerHTML = '⌂';
+        homeBtn.title = 'NotebookLM Home';
+        homeBtn.onclick = () => {
+            const wv = this.plugin.notebookIframe;
+            if (wv) wv.loadURL(NOTEBOOKLM_URL);
+        };
+
+        // Reload button
+        const reloadBtn = document.createElement('div');
+        reloadBtn.className = 'obsidian-booklm-ctrl-btn';
+        reloadBtn.innerHTML = '↻';
+        reloadBtn.title = 'Reload';
+        reloadBtn.onclick = () => {
+            const wv = this.plugin.notebookIframe;
+            if (wv) wv.reload();
+        };
+
+        // Close button
         const closeBtn = document.createElement('div');
-        closeBtn.className = 'obsidian-booklm-close-button';
+        closeBtn.className = 'obsidian-booklm-ctrl-btn btn-close';
         closeBtn.innerHTML = '✕';
         closeBtn.title = 'Close NotebookLM';
         closeBtn.onclick = () => this.close();
-        closeBtn.style.top = `${rect.top + 12}px`;
-        closeBtn.style.left = `${rect.right - 46}px`;
 
-        document.body.appendChild(closeBtn);
-        this.plugin.closeButton = closeBtn;
+        controls.appendChild(backBtn);
+        controls.appendChild(homeBtn);
+        controls.appendChild(reloadBtn);
+        controls.appendChild(closeBtn);
+
+        document.body.appendChild(controls);
+        this.plugin.controlsBar = controls;
     }
 
     onClose() {
@@ -114,9 +154,9 @@ class ObsidianBookLmModal extends obsidian.Modal {
             existingLoading.remove();
         }
 
-        if (this.plugin.closeButton) {
-            this.plugin.closeButton.remove();
-            this.plugin.closeButton = null;
+        if (this.plugin.controlsBar) {
+            this.plugin.controlsBar.remove();
+            this.plugin.controlsBar = null;
         }
 
         // Return webview to offscreen buffer so session stays active without reloading
@@ -136,7 +176,7 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
     constructor() {
         super(...arguments);
         this.notebookIframe = null;
-        this.closeButton = null;
+        this.controlsBar = null;
         this.isModalOpen = false;
     }
 
@@ -162,9 +202,9 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
             this.notebookIframe.remove();
             this.notebookIframe = null;
         }
-        if (this.closeButton) {
-            this.closeButton.remove();
-            this.closeButton = null;
+        if (this.controlsBar) {
+            this.controlsBar.remove();
+            this.controlsBar = null;
         }
     }
 
@@ -176,6 +216,10 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
         webview.className = 'obsidian-booklm-iframe';
         webview.setAttribute('partition', 'persist:notebooklm');
         webview.setAttribute('allowfullscreen', 'true');
+        webview.setAttribute('allowpopups', 'true');
+        webview.setAttribute('nodeintegration', 'false');
+        webview.setAttribute('nodeintegrationinsubframes', 'false');
+        webview.setAttribute('plugins', 'true');
         webview.setAttribute('useragent', USER_AGENT);
         webview.setAttribute('src', NOTEBOOKLM_URL);
 
@@ -187,6 +231,31 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
         webview.style.height = '1px';
         webview.style.zIndex = '9999990';
         webview.style.border = 'none';
+
+        webview.addEventListener('dom-ready', () => {
+            try {
+                if (webview.setUserAgent) {
+                    webview.setUserAgent(USER_AGENT);
+                }
+                webview.executeJavaScript(`
+                    try {
+                        Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
+                    } catch(e) {}
+                `);
+            } catch (err) {
+                console.error('NotebookLM webview dom-ready setup error:', err);
+            }
+        });
+
+        // Handle navigation and popups cleanly inside webview
+        webview.addEventListener('new-window', (e) => {
+            e.preventDefault();
+            if (e.url && (e.url.includes('google.com') || e.url.includes('notebooklm.google.com') || e.url.includes('gstatic.com'))) {
+                webview.loadURL(e.url);
+            } else if (e.url) {
+                window.open(e.url, '_blank');
+            }
+        });
 
         document.body.appendChild(webview);
         this.notebookIframe = webview;

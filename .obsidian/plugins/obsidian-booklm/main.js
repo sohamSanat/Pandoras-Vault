@@ -71,6 +71,30 @@ const AMOLED_CSS = `
         border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     }
 
+    /* Hide Google Gemini Notebook SVG Logo image */
+    labs-tailwind-logo img,
+    img[alt*="Notebook Logo"],
+    img[src*="notebook-logo.svg"] {
+        display: none !important;
+    }
+
+    .obsidian-notebook-custom-logo {
+        display: inline-flex !important;
+        align-items: center !important;
+        gap: 10px !important;
+        user-select: none !important;
+        cursor: pointer !important;
+        text-decoration: none !important;
+    }
+
+    .obsidian-notebook-custom-logo span {
+        font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif !important;
+        font-size: 19px !important;
+        font-weight: 600 !important;
+        color: #ffffff !important;
+        letter-spacing: -0.3px !important;
+    }
+
     .notebook-card, 
     [class*="notebook-card"], 
     .create-card, 
@@ -388,61 +412,68 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                         });
                     };
 
-                    const renameHeaderTitle = () => {
+                    const replaceLogoWithObsidian = () => {
                         try {
-                            // 1. Text node replacement across entire body & header
-                            const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT, null, false);
-                            let node;
-                            while (node = walker.nextNode()) {
-                                if (node.nodeValue && node.nodeValue.includes('Gemini')) {
-                                    node.nodeValue = node.nodeValue.replace(/Gemini Notebook/g, 'Obsidian Notebook').replace(/Gemini/g, 'Obsidian');
-                                }
-                            }
-
-                            // 2. Element textContent check for specific logo spans/headings
-                            const targets = document.querySelectorAll('header *, nav *, mat-toolbar *, .mat-toolbar *, a, span, h1, h2, div');
-                            targets.forEach(el => {
-                                if (el.children.length === 0 && el.textContent) {
-                                    if (el.textContent.trim() === 'Gemini') {
-                                        el.textContent = 'Obsidian';
-                                    } else if (el.textContent.includes('Gemini Notebook')) {
-                                        el.textContent = el.textContent.replace(/Gemini Notebook/g, 'Obsidian Notebook');
-                                    } else if (el.textContent.includes('Gemini')) {
-                                        el.textContent = el.textContent.replace(/Gemini/g, 'Obsidian');
+                            const logoElements = document.querySelectorAll('labs-tailwind-logo, img[alt*="Notebook Logo"], img[src*="notebook-logo.svg"]');
+                            logoElements.forEach(container => {
+                                const parent = container.tagName.toLowerCase() === 'img' ? container.parentElement : container;
+                                if (parent && !parent.querySelector('.obsidian-notebook-custom-logo')) {
+                                    const img = parent.querySelector('img');
+                                    if (img) {
+                                        img.style.setProperty('display', 'none', 'important');
                                     }
+                                    
+                                    const customLogo = document.createElement('div');
+                                    customLogo.className = 'obsidian-notebook-custom-logo';
+                                    customLogo.style.display = 'inline-flex';
+                                    customLogo.style.alignItems = 'center';
+                                    customLogo.style.gap = '10px';
+                                    customLogo.style.userSelect = 'none';
+                                    customLogo.style.cursor = 'pointer';
+
+                                    customLogo.innerHTML = \`
+                                        <svg width="24" height="24" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 0 6px rgba(168, 85, 247, 0.6));">
+                                            <polygon points="50,5 88,25 70,85 50,95 30,85 12,25" fill="#1e1b4b" stroke="#a855f7" stroke-width="6" stroke-linejoin="round"/>
+                                            <polygon points="50,5 70,85 50,95" fill="#6b21a8" />
+                                            <polygon points="50,5 30,85 50,95" fill="#7c3aed" />
+                                            <polygon points="50,5 88,25 70,85" fill="#9333ea" />
+                                            <polygon points="50,5 12,25 30,85" fill="#a855f7" />
+                                        </svg>
+                                        <span style="font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 19px; font-weight: 600; color: #ffffff; letter-spacing: -0.3px;">Obsidian Notebook</span>
+                                    \`;
+                                    parent.appendChild(customLogo);
                                 }
                             });
 
-                            // 3. Document title
-                            if (document.title && document.title.includes('Gemini')) {
-                                document.title = document.title.replace(/Gemini/g, 'Obsidian');
+                            if (document.title && (document.title.includes('Gemini') || document.title.includes('NotebookLM'))) {
+                                document.title = document.title.replace(/Gemini Notebook|NotebookLM/g, 'Obsidian Notebook');
                             }
                         } catch (e) {
-                            console.error('Rename error:', e);
+                            console.error('Logo replacement error:', e);
                         }
                     };
 
                     makePureBlack();
-                    renameHeaderTitle();
+                    replaceLogoWithObsidian();
 
                     if (!window.__obsidianAmoledObserver) {
                         window.__obsidianAmoledObserver = new MutationObserver(() => {
                             makePureBlack();
-                            renameHeaderTitle();
+                            replaceLogoWithObsidian();
                         });
                         window.__obsidianAmoledObserver.observe(document.body || document.documentElement, {
                             childList: true,
                             subtree: true,
                             characterData: true,
                             attributes: true,
-                            attributeFilter: ['class', 'style']
+                            attributeFilter: ['class', 'style', 'src']
                         });
                     }
                 })();
             `;
             webview.executeJavaScript(jsCode);
         } catch (err) {
-            console.error('Failed to inject AMOLED theme & title rename:', err);
+            console.error('Failed to inject AMOLED theme & logo replacement:', err);
         }
     }
 

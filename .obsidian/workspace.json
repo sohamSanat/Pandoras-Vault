@@ -11,10 +11,14 @@
             "id": "7eb67099c9af85e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "07 Notes/hello world.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "hello world"
             }
           }
         ]
@@ -193,6 +197,7 @@
   },
   "active": "7eb67099c9af85e8",
   "lastOpenFiles": [
+    "07 Notes/hello world.md",
     "07 Notes/yoo gang whatsup.md",
     "2nd-Brain/README.md",
     "2nd-Brain",
@@ -224,7 +229,6 @@
     "07 Notes/Piracy.md",
     "07 Notes/Presentation.md",
     "07 Notes/Animation.md",
-    "07 Notes/community.md",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/plugin-data.json",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-highlights.json",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-progress.json",

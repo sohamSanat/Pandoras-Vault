@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "2beb7bfb16cdcdf2",
+        "id": "30bff859ca584320",
         "type": "tabs",
         "children": [
           {
-            "id": "9c0f357d3a997f07",
+            "id": "0f0766c069281977",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -181,8 +181,12 @@
       "watchlog:Watchlog": false
     }
   },
-  "active": "fdc29a2ffebad745",
+  "active": "0f0766c069281977",
   "lastOpenFiles": [
+    "01 Daily/2026/08-August/2026-08-03-Monday.md",
+    "02 Weekly/2026/2026-W32.md",
+    "01 Daily/2026/08-August",
+    "01 Daily/2026",
     "07 Notes/hello world yet again.md",
     "07 Notes/hello world.md",
     "07 Notes/yoo gang whatsup.md",
@@ -192,7 +196,6 @@
     "02 Weekly/2026/2026-W35.md",
     "02 Weekly/2026/2026-W34.md",
     "02 Weekly/2026/2026-W33.md",
-    "02 Weekly/2026/2026-W32.md",
     "02 Weekly/2026/2026-W31.md",
     "02 Weekly/2026",
     "07 Notes/hello world i am here.md",
@@ -214,11 +217,8 @@
     "07 Notes/Game.md",
     "07 Notes/anime.md",
     "07 Notes/Piracy.md",
-    "07 Notes/Presentation.md",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/plugin-data.json",
     "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-highlights.json",
-    "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-progress.json",
-    "books/backup/_reader-rescue/_reader-rescue-2026-08-19",
     "Untitled 4.canvas",
     "Untitled 3.canvas",
     "Untitled 2.canvas",

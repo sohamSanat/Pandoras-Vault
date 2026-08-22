@@ -7,14 +7,20 @@ const USER_AGENT = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20
 const AMOLED_CSS = `
     :root {
         --mat-app-background-color: #000000 !important;
+        --mat-toolbar-container-background-color: #000000 !important;
+        --mat-app-bar-container-background-color: #000000 !important;
+        --mdc-top-app-bar-container-color: #000000 !important;
         --mat-sys-surface: #000000 !important;
-        --mat-sys-surface-container: #0a0e17 !important;
+        --mat-sys-surface-container: #000000 !important;
+        --mat-sys-surface-container-high: #000000 !important;
+        --mat-sys-surface-container-highest: #000000 !important;
         --mat-sys-surface-container-low: #000000 !important;
         --mat-sys-surface-container-lowest: #000000 !important;
+        --mat-sys-surface-dim: #000000 !important;
         --mat-sys-background: #000000 !important;
         --mdc-theme-background: #000000 !important;
-        --mdc-theme-surface: #0a0e17 !important;
-        --mdc-dialog-container-color: #0a0e17 !important;
+        --mdc-theme-surface: #000000 !important;
+        --mdc-dialog-container-color: #0c1017 !important;
         background: #000000 !important;
         background-color: #000000 !important;
     }
@@ -38,14 +44,28 @@ const AMOLED_CSS = `
         background-color: #000000 !important;
     }
 
+    /* All Header, Toolbar, Nav, and App Bar containers */
     header, 
     nav, 
+    mat-toolbar,
+    mat-toolbar-row,
+    .mat-toolbar,
+    .mat-toolbar-row,
+    .mat-toolbar.mat-primary,
+    .mat-toolbar-single-row,
     .top-app-bar, 
     .app-header, 
     [role="banner"],
     [class*="header"],
+    [class*="toolbar"],
     [class*="app-bar"],
-    [class*="top-bar"] {
+    [class*="top-bar"],
+    [class*="navbar"],
+    [class*="navigation"],
+    app-header,
+    header-component,
+    top-bar-component,
+    navigation-bar {
         background: #000000 !important;
         background-color: #000000 !important;
         border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
@@ -351,8 +371,36 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                         (document.head || document.documentElement).appendChild(style);
                     }
                     style.textContent = ${JSON.stringify(AMOLED_CSS)};
-                    document.documentElement.style.setProperty('background', '#000000', 'important');
-                    document.body.style.setProperty('background', '#000000', 'important');
+                    
+                    const makePureBlack = () => {
+                        document.documentElement.style.setProperty('background', '#000000', 'important');
+                        document.documentElement.style.setProperty('background-color', '#000000', 'important');
+                        if (document.body) {
+                            document.body.style.setProperty('background', '#000000', 'important');
+                            document.body.style.setProperty('background-color', '#000000', 'important');
+                        }
+                        
+                        const headerElements = document.querySelectorAll('header, nav, mat-toolbar, mat-toolbar-row, .mat-toolbar, .mat-toolbar-row, [role="banner"], [class*="header"], [class*="top-bar"], [class*="app-bar"], [class*="navbar"], [class*="toolbar"], app-header, header-component');
+                        headerElements.forEach(el => {
+                            el.style.setProperty('background', '#000000', 'important');
+                            el.style.setProperty('background-color', '#000000', 'important');
+                            el.style.setProperty('border-bottom', '1px solid rgba(255, 255, 255, 0.08)', 'important');
+                        });
+                    };
+
+                    makePureBlack();
+
+                    if (!window.__obsidianAmoledObserver) {
+                        window.__obsidianAmoledObserver = new MutationObserver(() => {
+                            makePureBlack();
+                        });
+                        window.__obsidianAmoledObserver.observe(document.body || document.documentElement, {
+                            childList: true,
+                            subtree: true,
+                            attributes: true,
+                            attributeFilter: ['class', 'style']
+                        });
+                    }
                 })();
             `;
             webview.executeJavaScript(jsCode);

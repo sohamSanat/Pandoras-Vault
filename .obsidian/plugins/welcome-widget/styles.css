@@ -230,53 +230,117 @@
 }
 
 /* ================================================================
-   SECTION 3: MINI GRAPH
+   SECTION 3: NOTEBOOKLM WIDGET
    ================================================================ */
 
-.mini-graph-widget-container {
+.notebooklm-widget-container {
     position: relative;
     width: 100%;
-    height: 200px;
     flex-shrink: 0;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 20px;
-    background: #000000;
-    overflow: hidden;
-    cursor: pointer;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s ease;
+    margin: 4px 0 8px 0;
     box-sizing: border-box;
 }
 
-.mini-graph-widget-container:hover {
-    border-color: rgba(255, 255, 255, 0.2);
+.notebooklm-widget-card {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.8) 0%, rgba(30, 41, 59, 0.6) 100%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    padding: 14px 16px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-sizing: border-box;
 }
 
-.mini-graph-widget-container .workspace-leaf,
-.mini-graph-widget-container .workspace-leaf-content,
-.mini-graph-widget-container .view-content,
-.mini-graph-widget-container .view-content>div {
-    width: 100% !important;
-    height: 100% !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    background: transparent !important;
-    border: none !important;
-    pointer-events: none !important;
+.notebooklm-widget-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, #38bdf8, #818cf8, #c084fc);
+    opacity: 0.8;
+    transition: opacity 0.25s ease;
 }
 
-.mini-graph-widget-container .view-header,
-.mini-graph-widget-container .graph-controls,
-.mini-graph-widget-container .view-actions,
-.mini-graph-widget-container .workspace-leaf-resize-handle {
-    display: none !important;
+.notebooklm-widget-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(56, 189, 248, 0.4);
+    box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(30, 41, 59, 0.75) 100%);
 }
 
-.mini-graph-widget-container canvas {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
+.notebooklm-widget-card:hover::before {
+    opacity: 1;
 }
+
+.notebooklm-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.notebooklm-badge {
+    font-family: monospace, var(--font-interface);
+    font-size: 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    color: #38bdf8;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    padding: 2px 8px;
+    border-radius: 12px;
+}
+
+.notebooklm-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #22c55e;
+    box-shadow: 0 0 8px #22c55e;
+    animation: notebooklm-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes notebooklm-glow {
+    0% {
+        opacity: 0.5;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+}
+
+.notebooklm-body {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.notebooklm-title {
+    font-family: var(--font-interface);
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.notebooklm-subtitle {
+    font-family: monospace, var(--font-interface);
+    font-size: 10.5px;
+    color: rgba(255, 255, 255, 0.5);
+    letter-spacing: 0.04em;
+}

@@ -157,12 +157,11 @@
               "title": "History"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 232
   },
   "left-ribbon": {
     "hiddenItems": {

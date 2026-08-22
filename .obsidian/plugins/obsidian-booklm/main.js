@@ -203,7 +203,7 @@ class ObsidianBookLmModal extends obsidian.Modal {
         contentEl.empty();
         contentEl.addClass('obsidian-booklm-content');
 
-        // Apply AMOLED Theme immediately upon opening
+        // Apply AMOLED Theme & text renaming immediately upon opening
         this.plugin.injectAmoledTheme();
 
         // Show dark loading screen that fades out
@@ -389,22 +389,36 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                     };
 
                     const renameHeaderTitle = () => {
-                        const header = document.querySelector('header, nav, mat-toolbar, .mat-toolbar, [role="banner"], [class*="header"], [class*="top-bar"], [class*="app-bar"], app-header, header-component');
-                        if (header) {
-                            const walker = document.createTreeWalker(header, NodeFilter.SHOW_TEXT, null, false);
+                        try {
+                            // 1. Text node replacement across entire body & header
+                            const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT, null, false);
                             let node;
                             while (node = walker.nextNode()) {
-                                if (node.nodeValue) {
-                                    if (node.nodeValue.includes('Gemini Notebook')) {
-                                        node.nodeValue = node.nodeValue.replace(/Gemini Notebook/g, 'Obsidian Notebook');
-                                    } else if (node.nodeValue.trim() === 'NotebookLM' || node.nodeValue.includes('NotebookLM')) {
-                                        node.nodeValue = node.nodeValue.replace(/NotebookLM/g, 'Obsidian Notebook');
-                                    }
+                                if (node.nodeValue && node.nodeValue.includes('Gemini')) {
+                                    node.nodeValue = node.nodeValue.replace(/Gemini Notebook/g, 'Obsidian Notebook').replace(/Gemini/g, 'Obsidian');
                                 }
                             }
-                        }
-                        if (document.title && (document.title.includes('Gemini Notebook') || document.title.includes('NotebookLM'))) {
-                            document.title = document.title.replace(/Gemini Notebook|NotebookLM/g, 'Obsidian Notebook');
+
+                            // 2. Element textContent check for specific logo spans/headings
+                            const targets = document.querySelectorAll('header *, nav *, mat-toolbar *, .mat-toolbar *, a, span, h1, h2, div');
+                            targets.forEach(el => {
+                                if (el.children.length === 0 && el.textContent) {
+                                    if (el.textContent.trim() === 'Gemini') {
+                                        el.textContent = 'Obsidian';
+                                    } else if (el.textContent.includes('Gemini Notebook')) {
+                                        el.textContent = el.textContent.replace(/Gemini Notebook/g, 'Obsidian Notebook');
+                                    } else if (el.textContent.includes('Gemini')) {
+                                        el.textContent = el.textContent.replace(/Gemini/g, 'Obsidian');
+                                    }
+                                }
+                            });
+
+                            // 3. Document title
+                            if (document.title && document.title.includes('Gemini')) {
+                                document.title = document.title.replace(/Gemini/g, 'Obsidian');
+                            }
+                        } catch (e) {
+                            console.error('Rename error:', e);
                         }
                     };
 
@@ -419,6 +433,7 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                         window.__obsidianAmoledObserver.observe(document.body || document.documentElement, {
                             childList: true,
                             subtree: true,
+                            characterData: true,
                             attributes: true,
                             attributeFilter: ['class', 'style']
                         });

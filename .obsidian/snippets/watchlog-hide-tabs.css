@@ -1,0 +1,318 @@
+/* ==========================================================
+   🚫 HIDE UNWANTED SECTIONS & TABS
+   ======================================================== */
+
+/* Hide unused tabs in Watchlog: Games, Upcoming, Custom lists, Drafts, Log */
+.wl-tab-bar .wl-tab-btn:nth-child(n+4) {
+    display: none !important;
+}
+
+/* Hide Recently Watched & Recently Added sections from Dashboard */
+.wl-recently-watched {
+    display: none !important;
+}
+
+/* Hide top 5 cards in More Statistics (Keep only the bottom 2) */
+.wl-stats-grid>.wl-stats-card:nth-last-child(n+3) {
+    display: none !important;
+}
+
+/* Hide Watchlist card status badge overlay */
+.wl-card-status-badge {
+    display: none !important;
+}
+
+/* Transform Book Reading card status badge into "Get book" button */
+.wl-reading-card-status-badge {
+    display: inline-flex !important;
+    font-size: 0 !important;
+    position: absolute !important;
+    top: 8px !important;
+    left: 8px !important;
+    background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%) !important;
+    color: #ffffff !important;
+    padding: 5px 12px !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    cursor: pointer !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    z-index: 10 !important;
+}
+
+.wl-reading-card-status-badge::after {
+    content: "📖 Get book" !important;
+    font-size: 11.5px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em !important;
+    line-height: 1 !important;
+}
+
+.wl-reading-card-status-badge:hover {
+    background: linear-gradient(135deg, #60a5fa 0%, #2563eb 100%) !important;
+    transform: translateY(-1px) scale(1.05) !important;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.5) !important;
+}
+
+/* "Read Book" alternate button state (green gradient) */
+.wl-reading-card-status-badge.is-read-book {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+}
+
+.wl-reading-card-status-badge.is-read-book::after {
+    content: "📖 Read book" !important;
+}
+
+.wl-reading-card-status-badge.is-read-book:hover {
+    background: linear-gradient(135deg, #34d399 0%, #10b981 100%) !important;
+    box-shadow: 0 6px 16px rgba(16, 185, 129, 0.5) !important;
+}
+
+
+/* ========================================================
+    PREMIUM MODERN TAB BAR STYLING
+   ======================================================== */
+
+.wl-tab-bar {
+    display: flex !important;
+    align-items: center !important;
+    gap: 12px !important;
+    padding: 10px 14px !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background: rgba(18, 18, 24, 0.75) !important;
+    border-radius: 16px !important;
+    margin: 10px 12px 18px 12px !important;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25) !important;
+}
+
+.wl-tab-btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+    padding: 10px 28px !important;
+    border-radius: 12px !important;
+    background: rgba(255, 255, 255, 0.04) !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    color: rgba(255, 255, 255, 0.65) !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.03em !important;
+    cursor: pointer !important;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 0 !important;
+}
+
+.wl-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.09) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.18) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.wl-tab-btn.is-active {
+    background: linear-gradient(135deg, #6356e5 0%, #8b5cf6 100%) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.25) !important;
+    font-weight: 700 !important;
+    box-shadow: 0 6px 20px rgba(127, 119, 221, 0.45), 0 0 0 1px rgba(255, 255, 255, 0.2) inset !important;
+    transform: translateY(-1px) !important;
+}
+
+/* Emoji Icons for tabs */
+.wl-tab-btn:nth-child(1)::before {
+    content: "📊";
+    font-size: 15px;
+}
+
+.wl-tab-btn:nth-child(2)::before {
+    content: "🎬";
+    font-size: 15px;
+}
+
+.wl-tab-btn:nth-child(3)::before {
+    content: "📚";
+    font-size: 15px;
+}
+
+
+/* ========================================================
+   🔍 SINGLE ROW HORIZONTAL LAYOUT (LEFT TO RIGHT)
+   [Search Bar] -> [Filter] [Sort] [Select] ---------- [⚙️] [+ Add]
+   ======================================================== */
+
+.wl-header-controls,
+.wl-reading-toolbar {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+    align-items: center !important;
+    gap: 10px !important;
+    margin-bottom: 16px !important;
+    width: 100% !important;
+}
+
+/* 1. Leftmost: Search Bar */
+.wl-header-controls>.wl-search-wrap,
+.wl-header-controls>.wl-reading-search-wrap,
+.wl-reading-toolbar>.wl-search-wrap,
+.wl-reading-toolbar>.wl-reading-search-wrap,
+.wl-search-wrap,
+.wl-reading-search-wrap {
+    order: 1 !important;
+    flex: 0 1 280px !important;
+    min-width: 180px !important;
+    margin: 0 !important;
+}
+
+.wl-search-input,
+.wl-reading-search-input {
+    width: 100% !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.12) !important;
+    border-radius: 10px !important;
+    color: #ffffff !important;
+    padding: 8px 14px !important;
+    font-size: 13.5px !important;
+    transition: all 0.2s ease !important;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3) !important;
+}
+
+.wl-search-input::placeholder,
+.wl-reading-search-input::placeholder {
+    color: rgba(255, 255, 255, 0.45) !important;
+}
+
+.wl-search-input:focus,
+.wl-reading-search-input:focus {
+    outline: none !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: #8b5cf6 !important;
+    box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.3), inset 0 1px 2px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 2. Middle: Filter, Sort, Select Buttons */
+.wl-header-controls>.wl-toolbar-actions,
+.wl-reading-toolbar>.wl-toolbar-actions,
+.wl-toolbar-actions {
+    order: 2 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+    margin: 0 !important;
+}
+
+/* 3. Rightmost: Settings & +Add Button */
+.wl-header-controls>.wl-header-controls-right,
+.wl-reading-toolbar>.wl-header-controls-right,
+.wl-header-controls-right {
+    order: 3 !important;
+    margin-left: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 8px !important;
+}
+
+/* Toolbar Control Buttons Styling (Filter, Sort, Select) */
+.wl-header-controls .wl-btn,
+.wl-reading-toolbar .wl-btn,
+.wl-toolbar-actions .wl-btn,
+.wl-header-controls-right .wl-btn {
+    background: rgba(255, 255, 255, 0.06) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px !important;
+    color: rgba(255, 255, 255, 0.85) !important;
+    padding: 7px 15px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.02em !important;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+.wl-header-controls .wl-btn:hover,
+.wl-reading-toolbar .wl-btn:hover,
+.wl-toolbar-actions .wl-btn:hover,
+.wl-header-controls-right .wl-btn:hover {
+    background: rgba(255, 255, 255, 0.12) !important;
+    color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-1.5px) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* ========================================================
+   🚀 PROMINENT "+ ADD" MAIN BUTTON
+   ======================================================== */
+
+.wl-add-btn,
+.wl-btn-success {
+    background: linear-gradient(135deg, #10b981 0%, #059669 100%) !important;
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    font-size: 13.5px !important;
+    padding: 8px 18px !important;
+    border-radius: 10px !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.15) inset !important;
+    transition: all 0.22s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    letter-spacing: 0.03em !important;
+    cursor: pointer !important;
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+}
+
+.wl-add-btn:hover,
+.wl-btn-success:hover {
+    background: linear-gradient(135deg, #34d399 0%, #10b981 100%) !important;
+    color: #ffffff !important;
+    transform: translateY(-2px) scale(1.03) !important;
+    box-shadow: 0 6px 20px rgba(16, 185, 129, 0.6), 0 0 0 1px rgba(255, 255, 255, 0.3) inset !important;
+}
+
+.wl-add-btn:active,
+.wl-btn-success:active {
+    transform: translateY(0) scale(0.98) !important;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.4) !important;
+}
+
+
+/* ========================================================
+   📖 BOOK / MANGA DETAIL MODAL CLEANUP
+   ======================================================== */
+
+/* Hide "Click the total number of pages or chapters above to edit it" warning banner */
+.wl-cl-draft-banner {
+    display: none !important;
+}
+
+/* Hide Google Books ID / MAL ID cell */
+.wl-reading-detail-cell:has(.wl-reading-detail-id-value) {
+    display: none !important;
+}
+
+/* Hide Custom Fields section */
+.wl-reading-detail-custom {
+    display: none !important;
+}
+
+/* Hide Favorite Quotes section */
+.wl-reading-detail-quotes {
+    display: none !important;
+}
+
+/* Hide divider lines in reading modal */
+.wl-reading-modal-divider {
+    display: none !important;
+}
+
+/* Hide 3-dots menu button on book/reading cards */
+.wl-reading-card-menu-btn,
+.wl-reading-card:hover .wl-reading-card-menu-btn {
+    display: none !important;
+}

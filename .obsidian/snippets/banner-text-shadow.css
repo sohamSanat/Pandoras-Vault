@@ -1,0 +1,22 @@
+/* 1. Target Headers in Live Preview (Editing Mode) */
+.cm-s-obsidian .cm-header,
+/* 2. Target Headers in Reading Mode */
+.markdown-rendered h1,
+/* 3. Target the built-in inline title */
+.inline-title {
+    text-shadow: 
+        /* Softened 1px outline (40% opacity instead of pure black) */
+        -1px -1px 0 rgba(0, 0, 0, 0.4),  
+         1px -1px 0 rgba(0, 0, 0, 0.4),
+        -1px  1px 0 rgba(0, 0, 0, 0.4),
+         1px  1px 0 rgba(0, 0, 0, 0.4),
+        /* Layer 1: A tight, medium-soft shadow */
+         0px 4px 12px rgba(0, 0, 0, 0.5),
+        /* Layer 2: A wide, highly diffused shadow to flesh it out */
+         0px 8px 24px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* 4. Force any nested spans to inherit */
+.cm-s-obsidian .cm-header *,
+.markdown-rendered h1 * {
+}

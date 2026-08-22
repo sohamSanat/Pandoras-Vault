@@ -1,0 +1,9 @@
+{
+    "id": "star-view",
+    "name": "Star-view",
+    "version": "1.0.0",
+    "minAppVersion": "1.0.0",
+    "description": "Adds a gorgeous Sagittarius constellation overlay to your workspace.",
+    "author": "Antigravity",
+    "isDesktopOnly": false
+}

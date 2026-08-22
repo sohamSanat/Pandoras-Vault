@@ -1,0 +1,273 @@
+{
+  "settings": {
+    "language": "en",
+    "booksFolder": "books/book",
+    "noteTemplate": "",
+    "notesFolder": "books/highlights",
+    "bookNotesFolder": "books/bookNote",
+    "autoBookNote": true,
+    "dataFolder": "books/backup",
+    "bookTemplates": {},
+    "exportColors": true,
+    "theme": "light",
+    "fontSize": 18,
+    "fontFamily": "georgia",
+    "lineHeight": 1.8,
+    "columns": "2",
+    "textAlign": "left",
+    "vAlign": "top",
+    "translateEnabled": false,
+    "translateTo": "en",
+    "bookNoteLinks": {
+      "books/book/Project-Hail-Mary.epub": "Project-Hail-Mary",
+      "books/book/The Art of not giving a fuck.epub": "The Art of not giving a fuck",
+      "books/book/1+2.epub": "1+2",
+      "books/book/harem.epub": "harem"
+    },
+    "bookNotePrompted": {
+      "books/book/Project-Hail-Mary.epub": true,
+      "books/book/The Art of not giving a fuck.epub": true,
+      "books/book/1+2.epub": true,
+      "books/book/harem.epub": true
+    },
+    "coverFits": {},
+    "syncMode": "auto",
+    "pdfShowFiguresOnTextPages": true,
+    "libCoverSize": 232,
+    "libCategory": "status:new",
+    "readerAdvOpen": false,
+    "readerHistOpen": false,
+    "askNoteTitle": true,
+    "shortNoteTitles": true,
+    "defaultHlColor": "yellow",
+    "bookTags": {},
+    "navMode": "buttons",
+    "timerEnabled": false,
+    "dailyGoalMin": 15,
+    "readingLog": {},
+    "lifetimeSeconds": 0,
+    "immersive": true,
+    "onboarded": true,
+    "promptedRepaired": true,
+    "figuresShownByDefault": true,
+    "einkMode": false,
+    "lastSeenVersion": "2.0.0"
+  },
+  "progressBackups": {
+    "books/book/Project-Hail-Mary.epub": [
+      {
+        "pct": 0.0012106537530266344,
+        "percent": 0,
+        "lastRead": 1786172578065,
+        "ts": 1786172635962
+      },
+      {
+        "pct": 0.009685230024213076,
+        "percent": 1,
+        "lastRead": 1786172667339,
+        "ts": 1786638809267
+      }
+    ],
+    "books/book/The Art of not giving a fuck.epub": [
+      {
+        "pct": 0,
+        "percent": 0,
+        "lastRead": 1786213704735,
+        "ts": 1786213707078
+      },
+      {
+        "pct": 0.007692307692307693,
+        "percent": 1,
+        "lastRead": 1786213730800,
+        "ts": 1786283371484
+      }
+    ],
+    "books/book/1+2.epub": [
+      {
+        "pct": 0.017543859649122806,
+        "percent": 2,
+        "lastRead": 1787052404289,
+        "ts": 1787052404485
+      }
+    ],
+    "books/book/harem.epub": [
+      {
+        "pct": 0.0029850746268656717,
+        "percent": 0,
+        "lastRead": 1787054269567,
+        "ts": 1787054311054
+      },
+      {
+        "pct": 0.01791044776119403,
+        "percent": 2,
+        "lastRead": 1787054458614,
+        "ts": 1787064624054
+      },
+      {
+        "pct": 0.008955223880597015,
+        "percent": 1,
+        "lastRead": 1787064629257,
+        "ts": 1787072869052
+      },
+      {
+        "pct": 0.029850746268656716,
+        "percent": 3,
+        "lastRead": 1787073040617,
+        "ts": 1787073071191
+      },
+      {
+        "pct": 0.03582089552238806,
+        "percent": 4,
+        "lastRead": 1787073109294,
+        "ts": 1787073649881
+      },
+      {
+        "pct": 0.05373134328358209,
+        "percent": 5,
+        "lastRead": 1787073827459,
+        "ts": 1787075668917
+      },
+      {
+        "pct": 0.0626865671641791,
+        "percent": 6,
+        "lastRead": 1787075738371,
+        "ts": 1787075970159
+      },
+      {
+        "pct": 0.07164179104477612,
+        "percent": 7,
+        "lastRead": 1787076119696,
+        "ts": 1787076170809
+      },
+      {
+        "pct": 0.08656716417910448,
+        "percent": 9,
+        "lastRead": 1787076334133,
+        "ts": 1787076369605
+      },
+      {
+        "pct": 0.10149253731343283,
+        "percent": 10,
+        "lastRead": 1787076529076,
+        "ts": 1787076679805
+      },
+      {
+        "pct": 0.11343283582089553,
+        "percent": 11,
+        "lastRead": 1787076804527,
+        "ts": 1787077010506
+      },
+      {
+        "pct": 0.11940298507462686,
+        "percent": 12,
+        "lastRead": 1787077053422,
+        "ts": 1787078138515
+      },
+      {
+        "pct": 0.13134328358208955,
+        "percent": 13,
+        "lastRead": 1787078283482,
+        "ts": 1787078323901
+      },
+      {
+        "pct": 0.14626865671641792,
+        "percent": 15,
+        "lastRead": 1787078502872,
+        "ts": 1787079074942
+      },
+      {
+        "pct": 0.16716417910447762,
+        "percent": 17,
+        "lastRead": 1787079236262,
+        "ts": 1787079271302
+      },
+      {
+        "pct": 0.1761194029850746,
+        "percent": 18,
+        "lastRead": 1787079416671,
+        "ts": 1787079453897
+      },
+      {
+        "pct": 0.1880597014925373,
+        "percent": 19,
+        "lastRead": 1787079557833,
+        "ts": 1787140343254
+      },
+      {
+        "pct": 0.19701492537313434,
+        "percent": 20,
+        "lastRead": 1787140367434,
+        "ts": 1787215879332
+      }
+    ]
+  },
+  "highlightsBackups": {
+    "books/book/Project-Hail-Mary.epub": [
+      {
+        "ts": 1786172701894,
+        "count": 1,
+        "sig": "hmsk13sqwr6ro",
+        "items": [
+          {
+            "id": "hmsk13sqwr6ro",
+            "color": "green",
+            "text": "tubes ",
+            "block": 122,
+            "occ": 0,
+            "pre": "it, they’ve removed most of the ",
+            "post": "from my body. I didn’t feel a th",
+            "created": 1786172695880
+          }
+        ]
+      },
+      {
+        "ts": 1786172737407,
+        "count": 2,
+        "sig": "hmsk13sqwr6ro,hmsk14f2sksvk",
+        "items": [
+          {
+            "id": "hmsk13sqwr6ro",
+            "color": "green",
+            "text": "tubes ",
+            "block": 122,
+            "occ": 0,
+            "pre": "it, they’ve removed most of the ",
+            "post": "from my body. I didn’t feel a th",
+            "created": 1786172695880,
+            "comment": "pipes"
+          },
+          {
+            "id": "hmsk14f2sksvk",
+            "color": "pink",
+            "text": "raise ",
+            "block": 124,
+            "occ": 0,
+            "pre": "I ",
+            "post": "my right arm and let it fall bac",
+            "created": 1786172724820
+          }
+        ]
+      }
+    ],
+    "books/book/The Art of not giving a fuck.epub": [
+      {
+        "ts": 1786283378935,
+        "count": 1,
+        "sig": "hmslv04awxcv9",
+        "items": [
+          {
+            "id": "hmslv04awxcv9",
+            "color": "pink",
+            "text": "te that she’s h",
+            "block": 19,
+            "occ": 0,
+            "pre": "nd in front of a mirror and reci",
+            "post": "appy. She just is.",
+            "created": 1786283378888
+          }
+        ]
+      }
+    ]
+  },
+  "lastBookPath": "books/book/harem.epub"
+}

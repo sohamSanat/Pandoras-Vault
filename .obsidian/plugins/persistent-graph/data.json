@@ -1,0 +1,2525 @@
+{
+  "nodePositions": [
+    {
+      "id": "01 Daily/2026/07-July/2026-07-27-Monday.md",
+      "x": -11301.9912109375,
+      "y": 6342.00244140625
+    },
+    {
+      "id": "01 Daily/2026/07-July/2026-07-28-Tuesday.md",
+      "x": -11087.6025390625,
+      "y": 4764.44873046875
+    },
+    {
+      "id": "01 Daily/2026/07-July/2026-07-29-Wednesday.md",
+      "x": -11849.5205078125,
+      "y": 6600.041015625
+    },
+    {
+      "id": "01 Daily/2026/07-July/2026-07-30-Thursday.md",
+      "x": -12195.0498046875,
+      "y": 5586.9697265625
+    },
+    {
+      "id": "01 Daily/2026/07-July/2026-07-31-Friday.md",
+      "x": -12276.404296875,
+      "y": 4453.712890625
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-01-Saturday.md",
+      "x": -11765.240234375,
+      "y": 4766.99072265625
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-02-Sunday.md",
+      "x": -11330.4560546875,
+      "y": 5522.26708984375
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-03-Monday.md",
+      "x": 8632.2978515625,
+      "y": 10647.4033203125
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-04-Tuesday.md",
+      "x": 9639.2685546875,
+      "y": 8900.921875
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-05-Wednesday.md",
+      "x": 7789.4228515625,
+      "y": 10629.8447265625
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-06-Thursday.md",
+      "x": 9452.2646484375,
+      "y": 9858.8271484375
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-07-Friday.md",
+      "x": 8293.373046875,
+      "y": 9049.9912109375
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-08-Saturday.md",
+      "x": 7699.5390625,
+      "y": 9805.3388671875
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-09-Sunday.md",
+      "x": 9005.59765625,
+      "y": 9029.4638671875
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-10-Monday.md",
+      "x": 13104.216796875,
+      "y": 747.3964233398438
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-11-Tuesday.md",
+      "x": 12316.826171875,
+      "y": 3395.815673828125
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-12-Wednesday.md",
+      "x": 11961.2236328125,
+      "y": 2499.378662109375
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-13-Thursday.md",
+      "x": 13093.5419921875,
+      "y": 3200.060546875
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-14-Friday.md",
+      "x": 13369.7939453125,
+      "y": 1499.4779052734375
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-15-Saturday.md",
+      "x": 13385.37890625,
+      "y": 2314.423095703125
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-16-Sunday.md",
+      "x": 12548.748046875,
+      "y": 1462.360595703125
+    },
+    {
+      "id": "01 Daily/2026/08-August/2026-08-23-Sunday.md",
+      "x": -13361.8486328125,
+      "y": 811.7365112304688
+    },
+    {
+      "id": "02 Weekly/2026/2026-W27.md",
+      "x": -6596.36083984375,
+      "y": 11473.5986328125
+    },
+    {
+      "id": "2026-06-29-Monday",
+      "x": -7704.0048828125,
+      "y": 10834.6875
+    },
+    {
+      "id": "2026-06-30-Tuesday",
+      "x": -7538.95166015625,
+      "y": 11566.0478515625
+    },
+    {
+      "id": "2026-07-01-Wednesday",
+      "x": -5587.40087890625,
+      "y": 11930.5224609375
+    },
+    {
+      "id": "2026-07-02-Thursday",
+      "x": -6918.4091796875,
+      "y": 10634.8828125
+    },
+    {
+      "id": "2026-07-03-Friday",
+      "x": -6814.9599609375,
+      "y": 12167.98046875
+    },
+    {
+      "id": "2026-07-04-Saturday",
+      "x": -6002.64892578125,
+      "y": 11086.9521484375
+    },
+    {
+      "id": "2026-07-05-Sunday",
+      "x": -5928.29052734375,
+      "y": 12510.1923828125
+    },
+    {
+      "id": "02 Weekly/2026/2026-W28.md",
+      "x": -8961.2744140625,
+      "y": 8733.65234375
+    },
+    {
+      "id": "2026-07-06-Monday",
+      "x": -9824.646484375,
+      "y": 9373.1923828125
+    },
+    {
+      "id": "2026-07-07-Tuesday",
+      "x": -9344.7734375,
+      "y": 7831.32275390625
+    },
+    {
+      "id": "2026-07-08-Wednesday",
+      "x": -8419.4716796875,
+      "y": 9225.634765625
+    },
+    {
+      "id": "2026-07-09-Thursday",
+      "x": -9676.599609375,
+      "y": 8538.62890625
+    },
+    {
+      "id": "2026-07-10-Friday",
+      "x": -9084.328125,
+      "y": 9705.0126953125
+    },
+    {
+      "id": "2026-07-11-Saturday",
+      "x": -10253.8330078125,
+      "y": 7846.1435546875
+    },
+    {
+      "id": "2026-07-12-Sunday",
+      "x": -10445.1240234375,
+      "y": 8633.4443359375
+    },
+    {
+      "id": "02 Weekly/2026/2026-W31.md",
+      "x": -10630.9306640625,
+      "y": 6127.20458984375
+    },
+    {
+      "id": "02 Weekly/2026/2026-W32.md",
+      "x": 8526.5986328125,
+      "y": 9855.0087890625
+    },
+    {
+      "id": "02 Weekly/2026/2026-W33.md",
+      "x": 12572.162109375,
+      "y": 2449.937744140625
+    },
+    {
+      "id": "02 Weekly/2026/2026-W35.md",
+      "x": 806.1046142578125,
+      "y": 12948.060546875
+    },
+    {
+      "id": "2026-08-24-Monday",
+      "x": 1915.7698974609375,
+      "y": 13227.7451171875
+    },
+    {
+      "id": "2026-08-25-Tuesday",
+      "x": 1447.915771484375,
+      "y": 12526.4794921875
+    },
+    {
+      "id": "2026-08-26-Wednesday",
+      "x": 312.91021728515625,
+      "y": 13659.5595703125
+    },
+    {
+      "id": "2026-08-27-Thursday",
+      "x": 1250.3411865234375,
+      "y": 13667.5244140625
+    },
+    {
+      "id": "2026-08-28-Friday",
+      "x": -657.7069702148438,
+      "y": 12857.0771484375
+    },
+    {
+      "id": "2026-08-29-Saturday",
+      "x": 154.8883514404297,
+      "y": 12625.7314453125
+    },
+    {
+      "id": "2026-08-30-Sunday",
+      "x": -515.916259765625,
+      "y": 13526.20703125
+    },
+    {
+      "id": "02 Weekly/2026/2026-W36.md",
+      "x": 11168.8671875,
+      "y": 6208.45458984375
+    },
+    {
+      "id": "2026-08-31-Monday",
+      "x": 12157.2568359375,
+      "y": 5850.54736328125
+    },
+    {
+      "id": "2026-09-01-Tuesday",
+      "x": 11901.49609375,
+      "y": 5116.23828125
+    },
+    {
+      "id": "2026-09-02-Wednesday",
+      "x": 10561.310546875,
+      "y": 7274.49560546875
+    },
+    {
+      "id": "2026-09-03-Thursday",
+      "x": 10499.626953125,
+      "y": 6110.20751953125
+    },
+    {
+      "id": "2026-09-04-Friday",
+      "x": 11096.0546875,
+      "y": 6926.46435546875
+    },
+    {
+      "id": "2026-09-05-Saturday",
+      "x": 11165.759765625,
+      "y": 5297.8955078125
+    },
+    {
+      "id": "2026-09-06-Sunday",
+      "x": 11831.0234375,
+      "y": 6831.732421875
+    },
+    {
+      "id": "03 Monthly/2026/2026-07-July.md",
+      "x": -4744.52783203125,
+      "y": 11361.7529296875
+    },
+    {
+      "id": "2026-W29",
+      "x": -4283.3427734375,
+      "y": 12465.6669921875
+    },
+    {
+      "id": "2026-W30",
+      "x": -3589.957275390625,
+      "y": 12297.62109375
+    },
+    {
+      "id": "03 Monthly/2026/2026-08-August.md",
+      "x": 2912.25048828125,
+      "y": 10582.361328125
+    },
+    {
+      "id": "04 Quarterly/2026/2026-Q3.md",
+      "x": 2809.853515625,
+      "y": 12221.7568359375
+    },
+    {
+      "id": "2026/2026-09-September",
+      "x": 3459.406005859375,
+      "y": 12881.896484375
+    },
+    {
+      "id": "03 Monthly/2026/2026-09-September",
+      "x": 3860.02685546875,
+      "y": 12208.484375
+    },
+    {
+      "id": "05 Yearly/2026.md",
+      "x": 6041.732421875,
+      "y": 11642.4658203125
+    },
+    {
+      "id": "2026/2026-Q1",
+      "x": 6410.20654296875,
+      "y": 12188.9892578125
+    },
+    {
+      "id": "2026/2026-Q2",
+      "x": 5408.89501953125,
+      "y": 12122.8046875
+    },
+    {
+      "id": "2026/2026-Q4",
+      "x": 5978.26123046875,
+      "y": 11031.2744140625
+    },
+    {
+      "id": "07 Notes/3d.md",
+      "x": 6017.33935546875,
+      "y": 8367.642578125
+    },
+    {
+      "id": "07 Notes/Ai.md",
+      "x": -128.24114990234375,
+      "y": -426.6429443359375
+    },
+    {
+      "id": "07 Notes/Animation.md",
+      "x": 8891.83203125,
+      "y": 4032.685791015625
+    },
+    {
+      "id": "07 Notes/Audio.md",
+      "x": 9346.97265625,
+      "y": 1899.830322265625
+    },
+    {
+      "id": "07 Notes/Automation.md",
+      "x": -915.9993286132812,
+      "y": 10604.6455078125
+    },
+    {
+      "id": "07 Notes/Bookmark.md",
+      "x": -613.109130859375,
+      "y": -1690.320556640625
+    },
+    {
+      "id": "07 Notes/Designing.md",
+      "x": 4788.4609375,
+      "y": 2871.845947265625
+    },
+    {
+      "id": "07 Notes/Ecommerce.md",
+      "x": 4192.6552734375,
+      "y": 9958.015625
+    },
+    {
+      "id": "07 Notes/Editor.md",
+      "x": 4996.8525390625,
+      "y": 8075.2939453125
+    },
+    {
+      "id": "07 Notes/Food.md",
+      "x": 12281.546875,
+      "y": -5046.71240234375
+    },
+    {
+      "id": "07 Notes/Fun.md",
+      "x": 11654.83203125,
+      "y": -2366.851806640625
+    },
+    {
+      "id": "07 Notes/Game.md",
+      "x": -417.1018981933594,
+      "y": -4377.7314453125
+    },
+    {
+      "id": "07 Notes/Image.md",
+      "x": 8914.0966796875,
+      "y": -2204.00390625
+    },
+    {
+      "id": "07 Notes/ImageGen.md",
+      "x": 9420.6591796875,
+      "y": 374.6399230957031
+    },
+    {
+      "id": "07 Notes/Learning.md",
+      "x": -8704.2041015625,
+      "y": 4033.740478515625
+    },
+    {
+      "id": "07 Notes/Library.md",
+      "x": -5259.06982421875,
+      "y": -5793.73681640625
+    },
+    {
+      "id": "07 Notes/Llm.md",
+      "x": -8619.5595703125,
+      "y": 2858.557861328125
+    },
+    {
+      "id": "07 Notes/Marketing.md",
+      "x": 3302.953857421875,
+      "y": 8651.87890625
+    },
+    {
+      "id": "07 Notes/OnlineStreaming.md",
+      "x": -3006.0791015625,
+      "y": -13473.22265625
+    },
+    {
+      "id": "07 Notes/Osnit.md",
+      "x": 9586.4765625,
+      "y": -7462.90087890625
+    },
+    {
+      "id": "07 Notes/Piracy.md",
+      "x": -755.7048950195312,
+      "y": -11682.4951171875
+    },
+    {
+      "id": "07 Notes/Playground.md",
+      "x": -6931.55224609375,
+      "y": 5895.91845703125
+    },
+    {
+      "id": "07 Notes/Presentation.md",
+      "x": -6612.31103515625,
+      "y": 6919.8798828125
+    },
+    {
+      "id": "07 Notes/Productivity.md",
+      "x": 1557.0810546875,
+      "y": 6633.802734375
+    },
+    {
+      "id": "07 Notes/Programming.md",
+      "x": -2229.445556640625,
+      "y": 9615.1640625
+    },
+    {
+      "id": "07 Notes/SearchBots.md",
+      "x": -9175.544921875,
+      "y": 6295.904296875
+    },
+    {
+      "id": "07 Notes/Video.md",
+      "x": -5019.55615234375,
+      "y": -7596.09033203125
+    },
+    {
+      "id": "07 Notes/Writing.md",
+      "x": 4525.3203125,
+      "y": -10798.4111328125
+    },
+    {
+      "id": "07 Notes/YouTube.md",
+      "x": -12092.2939453125,
+      "y": -3586.60498046875
+    },
+    {
+      "id": "07 Notes/anime.md",
+      "x": -9329.3076171875,
+      "y": -8636.724609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark -  awesome ai web search.md",
+      "x": -6635.2041015625,
+      "y": -2569.269775390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 123Movies.md",
+      "x": -4783.138671875,
+      "y": -8592.599609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 1337x.md",
+      "x": -4500.20849609375,
+      "y": -6839.84033203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 1anime.md",
+      "x": -7111.1640625,
+      "y": -6148.16064453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 1ball.pk.md",
+      "x": -6078.59716796875,
+      "y": -10308.3740234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 21st.dev.md",
+      "x": 4634.958984375,
+      "y": 5306.1083984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - 456movie.net.md",
+      "x": -1927.20166015625,
+      "y": -11798.6572265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Adobe Firely.md",
+      "x": 5828.80810546875,
+      "y": -4346.59765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Allenai playground.md",
+      "x": -6592.50830078125,
+      "y": 5221.27294921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anakin.md",
+      "x": -5795.87841796875,
+      "y": 606.096435546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anima.md",
+      "x": 2218.485595703125,
+      "y": 8156.92724609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animedao.md",
+      "x": -7324.52685546875,
+      "y": -6958.4697265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animeonsen.md",
+      "x": -8739.84375,
+      "y": -5781.89990234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animephae.md",
+      "x": -6387.7822265625,
+      "y": -7721.576171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animesuge.md",
+      "x": -7852.30419921875,
+      "y": -6297.89208984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animez.md",
+      "x": -8145.68408203125,
+      "y": -4703.88330078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Animista.md",
+      "x": 3799.38818359375,
+      "y": 6484.5478515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Aniplay.md",
+      "x": -7236.68798828125,
+      "y": -5183.79345703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anivibe.md",
+      "x": -6553.8173828125,
+      "y": -5456.72509765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Aniwave.md",
+      "x": -7086.9140625,
+      "y": -8374.2841796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anix.md",
+      "x": -6355.9091796875,
+      "y": -6966.7626953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anker Games.md",
+      "x": -571.374267578125,
+      "y": -7245.005859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anki.md",
+      "x": 1368.2366943359375,
+      "y": 4009.3671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Anna's Archieve.md",
+      "x": 837.2733154296875,
+      "y": -11480.4853515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Antigravity.md",
+      "x": -1620.93701171875,
+      "y": 5178.15185546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - AnythingAi.md",
+      "x": -4775.4677734375,
+      "y": 5740.361328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ApiNinja.md",
+      "x": 931.5951538085938,
+      "y": 4854.3173828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Arc agi.md",
+      "x": -7496.169921875,
+      "y": 450.43896484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Artflow.md",
+      "x": 8063.3603515625,
+      "y": -3098.083740234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Artifical analysis ai.md",
+      "x": 1180.650634765625,
+      "y": 1885.4422607421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Aurachat.md",
+      "x": 5404.7451171875,
+      "y": 5132.03369140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Automa.md",
+      "x": -1388.5960693359375,
+      "y": 7528.7724609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - AxionAi.md",
+      "x": 380.0285949707031,
+      "y": 3168.799560546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Bato.to.md",
+      "x": -8980.2119140625,
+      "y": -7134.8896484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - BeautfiulAi.md",
+      "x": 2523.323486328125,
+      "y": 2351.89794921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - BingImage.md",
+      "x": 7049.93701171875,
+      "y": -3228.279296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Biscuit.md",
+      "x": -890.9528198242188,
+      "y": 4139.90673828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Bitcine.app.md",
+      "x": -2781.997802734375,
+      "y": -11941.8896484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Blender.md",
+      "x": 3387.54296875,
+      "y": 5737.9404296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - BlockadeLab.md",
+      "x": 6482.9638671875,
+      "y": -5263.75
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Bollyflix.md",
+      "x": -4488.9033203125,
+      "y": -9309.7451171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Bolt.new.md",
+      "x": -1147.6461181640625,
+      "y": 6891.9609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Booksfree.md",
+      "x": 1440.0960693359375,
+      "y": -11019.591796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - BootSnip.md",
+      "x": 3208.84228515625,
+      "y": 7949.5302734375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - BoredButton.md",
+      "x": 7408.95849609375,
+      "y": -572.2102661132812
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Brilliant.md",
+      "x": -7302.31005859375,
+      "y": 1024.5316162109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Browser use .com.md",
+      "x": -6018.74658203125,
+      "y": 5764.560546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Bypass.city.md",
+      "x": 484.1846923828125,
+      "y": -2599.278076171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CanvaColorWheel.md",
+      "x": 2530.329345703125,
+      "y": 7508.43994140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Champagne Wiki.md",
+      "x": 2086.069580078125,
+      "y": -5010.93212890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Chat gpt.md",
+      "x": -7916.763671875,
+      "y": -125.01200866699219
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Cineby.md",
+      "x": -1261.28369140625,
+      "y": -12116.6279296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CivitAi.md",
+      "x": 3986.14453125,
+      "y": -3344.8984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Claude CLI.md",
+      "x": -911.3408813476562,
+      "y": 3259.280517578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Claude.md",
+      "x": -5901.6396484375,
+      "y": -1569.10546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Clipdrop.md",
+      "x": 3024.90771484375,
+      "y": -3171.550537109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Clipshort.md",
+      "x": 3378.61376953125,
+      "y": -6634.708984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CodeChef.md",
+      "x": 915.1921997070312,
+      "y": 7568.544921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CodeSandBox.md",
+      "x": -5883.9609375,
+      "y": 4409.2216796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Codecademy.md",
+      "x": -8198.8173828125,
+      "y": 1158.0706787109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CoderSlang.md",
+      "x": -2635.11328125,
+      "y": 71.49797058105469
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Color.io.md",
+      "x": 5869.9501953125,
+      "y": 1279.516845703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ColorAdobe.md",
+      "x": 5304.5166015625,
+      "y": 4414.91064453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ColorHunt.md",
+      "x": 3223.739990234375,
+      "y": 7035.06640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Comick.md",
+      "x": -8443.5595703125,
+      "y": -7852.1806640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Computer Science crash course.md",
+      "x": -10532.7802734375,
+      "y": -2975.365234375
+    },
+    {
+      "id": "Techyoutuber",
+      "x": -11877.083984375,
+      "y": -4322.779296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Compyle.ai.md",
+      "x": 363.7845153808594,
+      "y": 9022.833984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Copilot.md",
+      "x": -8050.65380859375,
+      "y": 4646.80810546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CopyAi.md",
+      "x": 2623.84130859375,
+      "y": -8383.9169921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CourseFlix.md",
+      "x": -3716.18798828125,
+      "y": -7962.162109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CoursesBag.md",
+      "x": -5429.470703125,
+      "y": -8605.40234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Craiyon.md",
+      "x": 5438.39013671875,
+      "y": -3258.5810546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Creative Conor.md",
+      "x": -3006.605712890625,
+      "y": -5878.09765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Cricem.md",
+      "x": 3137.19287109375,
+      "y": -10836.2509765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Cricfy.md",
+      "x": -76.94084930419922,
+      "y": -10593.5087890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CroTorrent.md",
+      "x": -3360.431640625,
+      "y": -6786.2783203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CssBattle.md",
+      "x": -5083.3291015625,
+      "y": 2068.695556640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - CssTrick.md",
+      "x": -4191.99267578125,
+      "y": 1723.701171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Cubari.md",
+      "x": -9456.9443359375,
+      "y": -5257.375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Cursor.md",
+      "x": -509.3232116699219,
+      "y": 9097.6044921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DaFont.md",
+      "x": -4316.7587890625,
+      "y": -5012.087890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Daedal OS.md",
+      "x": 6498.5986328125,
+      "y": 5202.3310546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DeepSeek.md",
+      "x": -6966.03515625,
+      "y": -891.8898315429688
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Deepai.md",
+      "x": 1566.3331298828125,
+      "y": -1059.7322998046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DeepcodeCLI.md",
+      "x": -780.2030029296875,
+      "y": 6001.05126953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Descript.md",
+      "x": -148.01873779296875,
+      "y": -2988.76220703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DevChallanges.md",
+      "x": -3204.150390625,
+      "y": 804.1255493164062
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Devin.md",
+      "x": -5306.07421875,
+      "y": -2080.163818359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Dodi repacks.md",
+      "x": -4861.98779296875,
+      "y": -4116.81787109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Dokumen.md",
+      "x": 226.76866149902344,
+      "y": -11120.0244140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DoraRun.md",
+      "x": 5300.5009765625,
+      "y": 7009.3525390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DreaminaAi.md",
+      "x": 5557.01025390625,
+      "y": -1344.31396484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - DuckDuckgo chat.md",
+      "x": -3071.542236328125,
+      "y": 3146.06103515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Earth2050.md",
+      "x": 8935.93359375,
+      "y": -4108.1767578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Editorx.md",
+      "x": 3838.02783203125,
+      "y": 7406.833984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Edraw.md",
+      "x": 7271.35498046875,
+      "y": 3625.708984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Elamigo.md",
+      "x": -251.1129608154297,
+      "y": -7949.29541015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Eldorado.md",
+      "x": -7279.75927734375,
+      "y": -4314.8974609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Elementor.md",
+      "x": 2774.625244140625,
+      "y": 6488.8408203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ElevenLabs.md",
+      "x": -4593.349609375,
+      "y": -6.658928394317627
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Emergent.sh.md",
+      "x": -2300.634521484375,
+      "y": 5876.23388671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - EmuGames.md",
+      "x": 8567.8525390625,
+      "y": -1156.9979248046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Epieos.md",
+      "x": 7164.39794921875,
+      "y": -8186.7373046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Etsy.md",
+      "x": 1831.7269287109375,
+      "y": 2099.19921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Eventmaps.md",
+      "x": 8235.4736328125,
+      "y": -5377.2646484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - EverythingMoe.md",
+      "x": -1785.0179443359375,
+      "y": -10953.5146484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - EzTv.md",
+      "x": -3033.1748046875,
+      "y": -8375.259765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fabrica.md",
+      "x": 2333.40869140625,
+      "y": -965.906005859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fal.md",
+      "x": 3602.667236328125,
+      "y": -4418.72119140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Figma.md",
+      "x": 4931.7734375,
+      "y": 7510.6884765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FileCr.md",
+      "x": -1945.0003662109375,
+      "y": -5842.6181640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Firebase Studio.md",
+      "x": -1504.4925537109375,
+      "y": 3888.595947265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fitgirl.md",
+      "x": -3670.529052734375,
+      "y": -4331.625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fiver.md",
+      "x": -4120.181640625,
+      "y": 3075.56689453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Flaticon.md",
+      "x": 7590.85107421875,
+      "y": 2764.04931640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FlexboxFroggy.md",
+      "x": -80.4471206665039,
+      "y": 3660.315673828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FlexboxZombie.md",
+      "x": -2803.82373046875,
+      "y": 3587.414794921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Flow.md",
+      "x": 2707.767822265625,
+      "y": -5545.05517578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FoodAtlas.md",
+      "x": 10480.046875,
+      "y": -5146.9013671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Forebears.md",
+      "x": 9548.876953125,
+      "y": -3278.435791015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fotor.md",
+      "x": 8526.068359375,
+      "y": 3032.14208984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Fragments by E2B.md",
+      "x": -6431.21826171875,
+      "y": 3132.394287109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Free LLM api.md",
+      "x": -8250.9482421875,
+      "y": -2396.01220703125
+    },
+    {
+      "id": "Api Keys",
+      "x": -10904.6806640625,
+      "y": -2192.5693359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FreeCourseSite.md",
+      "x": -1992.3868408203125,
+      "y": -9574.3017578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FreeMediaHeckYa.md",
+      "x": 1120.04150390625,
+      "y": -6260.88134765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Freepik.md",
+      "x": 836.501220703125,
+      "y": -1145.178466796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FridgeFood.md",
+      "x": 10970.2421875,
+      "y": -3865.360595703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FrontendMentor.md",
+      "x": -4988.43896484375,
+      "y": 1328.0120849609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - FrontendPractice.md",
+      "x": -4487.90771484375,
+      "y": 761.6145629882812
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Futuretools.md",
+      "x": -2661.056396484375,
+      "y": -3922.45947265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - G2G.md",
+      "x": -7451.7119140625,
+      "y": -3763.619873046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GPT.md",
+      "x": -6410.58251953125,
+      "y": -1244.3291015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gambo.ai.md",
+      "x": -1181.065673828125,
+      "y": 8654.9833984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GameRepacks.md",
+      "x": -949.673583984375,
+      "y": -6544.89794921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gamebounty.md",
+      "x": -1614.0040283203125,
+      "y": -6568.20703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gamedrive.md",
+      "x": 88.63922119140625,
+      "y": -8783.53125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gemini CLI.md",
+      "x": -3945.996826171875,
+      "y": 3696.479736328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gemini.md",
+      "x": -8490.6064453125,
+      "y": 534.87548828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gencraft.md",
+      "x": 7503.912109375,
+      "y": -1921.9501953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gensparkai.md",
+      "x": 2033.3948974609375,
+      "y": 239.34046936035156
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GitPodcast.md",
+      "x": 4979.43212890625,
+      "y": -5817.60205078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GogUnlocked.md",
+      "x": -3929.34716796875,
+      "y": -6177.02294921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Gojo.md",
+      "x": -6310.09765625,
+      "y": -6277.09912109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google Collab FaceSwaper.md",
+      "x": 647.4432373046875,
+      "y": -42.586509704589844
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google Collab sillly tavers ' koobald.md",
+      "x": 388.07647705078125,
+      "y": 933.894775390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google ai studio.md",
+      "x": 1144.525390625,
+      "y": 6327.09228515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google collab automatic1111.md",
+      "x": 568.8427734375,
+      "y": 1567.2042236328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google collab comfyui.md",
+      "x": 1081.43017578125,
+      "y": 490.1009216308594
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google jules.md",
+      "x": 1013.6673583984375,
+      "y": 5646.306640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google nano banana.md",
+      "x": 6499.91552734375,
+      "y": 2824.8955078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Google stitch.md",
+      "x": 2459.141357421875,
+      "y": 1250.7767333984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GooseCli.md",
+      "x": -3640.020263671875,
+      "y": 4896.69677734375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Grabifiy.md",
+      "x": 7742.1982421875,
+      "y": -6926.31640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - GridGarden.md",
+      "x": -16.874589920043945,
+      "y": 4523.75732421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Grok CLI.md",
+      "x": -3307.558837890625,
+      "y": 7247.4609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Grok.md",
+      "x": -468.6368713378906,
+      "y": 124.84779357910156
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Groq.md",
+      "x": -5550.39453125,
+      "y": -101.93131256103516
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - HacksPlaining.md",
+      "x": -8915.205078125,
+      "y": -58.60574722290039
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Hailuo.md",
+      "x": -8995.646484375,
+      "y": 2093.88671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Hemingway.md",
+      "x": 3444.465576171875,
+      "y": -8698.759765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Heygen.md",
+      "x": 971.27490234375,
+      "y": -7841.6669921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Hianime.md",
+      "x": -7930.98095703125,
+      "y": -5510.24951171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Hotpot.md",
+      "x": 2670.7880859375,
+      "y": -3896.6396484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - HuggingChat.md",
+      "x": -4602.32275390625,
+      "y": -421.29718017578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Hunyuan.md",
+      "x": -4916.51904296875,
+      "y": -1576.894287109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Idcrawl.md",
+      "x": 6405.79052734375,
+      "y": -7789.646484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Ideogram.md",
+      "x": 8851.552734375,
+      "y": -1354.9722900390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ImagineArt.md",
+      "x": 9526.1640625,
+      "y": -726.4539794921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Img.Upscaler.md",
+      "x": 4679.65478515625,
+      "y": 1295.4241943359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Inception labs.md",
+      "x": -7422.990234375,
+      "y": 4799.99658203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - IndexTts2.md",
+      "x": 4323.7861328125,
+      "y": -7552.07470703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Internetarchive.md",
+      "x": -1907.063232421875,
+      "y": -1034.40478515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Invideo.md",
+      "x": 773.1157836914062,
+      "y": -7108.3349609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - IpLogger.md",
+      "x": 7664.63720703125,
+      "y": -7646.36572265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - JavaScript30.md",
+      "x": -3457.353759765625,
+      "y": 1880.9864501953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Jina.ai.md",
+      "x": -4301.17431640625,
+      "y": 7933.85107421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Jitter.md",
+      "x": 6568.49365234375,
+      "y": 2155.2265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Kaiber.md",
+      "x": 6071.265625,
+      "y": -5854.0732421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - KaosRepack.md",
+      "x": -4378.73486328125,
+      "y": -4554.94287109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Kickassanime.md",
+      "x": -6448.369140625,
+      "y": -9108.7734375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - KiloCLI.md",
+      "x": -5008.96484375,
+      "y": 4866.9697265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Kimi CLI.md",
+      "x": -3518.79443359375,
+      "y": 6466.6826171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Kimi.md",
+      "x": -1439.179931640625,
+      "y": 6186.95751953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Klingai.md",
+      "x": 4008.659912109375,
+      "y": -7015.4287109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Labnol.md",
+      "x": 7325.56640625,
+      "y": -5820.0087890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Le Chat.md",
+      "x": -520.399169921875,
+      "y": 5455.361328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Learnanything.md",
+      "x": -5523.42724609375,
+      "y": -3582.243408203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - LeccaAi.md",
+      "x": -1190.9271240234375,
+      "y": 1527.428955078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Leetcode.md",
+      "x": 1261.2222900390625,
+      "y": 8555.494140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Leolabs.md",
+      "x": 8361.5029296875,
+      "y": -4652.64501953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - LeonardoAi.md",
+      "x": 6049.42724609375,
+      "y": -3679.770263671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - LightningAi.md",
+      "x": -4851.322265625,
+      "y": 7815.02197265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Llama coder.md",
+      "x": -3151.165283203125,
+      "y": 5821.890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Lmarena.ai.md",
+      "x": -8036.59716796875,
+      "y": 1978.1439208984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Lovable.md",
+      "x": -1801.2984619140625,
+      "y": 8018.8603515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - LumaAi.md",
+      "x": 2137.0400390625,
+      "y": -6002.18408203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - LupaUpscaler.md",
+      "x": 6778.57568359375,
+      "y": 1299.1143798828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mage.space.md",
+      "x": 2954.036376953125,
+      "y": -559.4743041992188
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - MagicHour.md",
+      "x": 3498.65234375,
+      "y": -1300.47900390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Make.com.md",
+      "x": 238.9806365966797,
+      "y": 6317.2705078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mangadex.md",
+      "x": -7873.390625,
+      "y": -8438.8974609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mangafire.md",
+      "x": -8050.24365234375,
+      "y": -7275.79150390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mangapark.md",
+      "x": -8529.775390625,
+      "y": -6482.6015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Manus.lm.md",
+      "x": -5271.6455078125,
+      "y": 6568.35693359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - MarineTraffic.md",
+      "x": 10133.021484375,
+      "y": -2677.657470703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - MediaSavvy.md",
+      "x": 1559.7049560546875,
+      "y": -4366.42041015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Medicalcirticifate.in.md",
+      "x": 2567.52001953125,
+      "y": -11181.1318359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Meshy.ai.md",
+      "x": 2566.39501953125,
+      "y": 5486.64111328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - MetaAi.md",
+      "x": -293.20831298828125,
+      "y": 815.407470703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Microsoft Designer.md",
+      "x": 3233.740966796875,
+      "y": 281.21160888671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Midjourney editor.md",
+      "x": 4321.21630859375,
+      "y": 3206.6357421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Midjourney.md",
+      "x": 4721.341796875,
+      "y": -2835.47802734375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - MimicPc.md",
+      "x": -2547.58642578125,
+      "y": 8753.984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Miruro.md",
+      "x": -8789.3857421875,
+      "y": -4934.86083984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mistral.md",
+      "x": -2100.346923828125,
+      "y": 6368.34326171875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mixkit.md",
+      "x": 1662.1011962890625,
+      "y": -2243.483154296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Mobbin.md",
+      "x": 3850.2783203125,
+      "y": 2359.275146484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Myflixer.md",
+      "x": -4368.3505859375,
+      "y": -7790.01123046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - N8N.md",
+      "x": -1091.843994140625,
+      "y": 4806.8828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - NealFun.md",
+      "x": 6086.09765625,
+      "y": -1777.3111572265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Netfilm.md",
+      "x": -3956.813232421875,
+      "y": -8747.1240234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Netlify.md",
+      "x": -1558.4486083984375,
+      "y": 2633.567626953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Netmirror.md",
+      "x": -2862.570556640625,
+      "y": -9806.6748046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Netplayz.md",
+      "x": -4447.78125,
+      "y": -10798.8037109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Night Cafe.md",
+      "x": 4398.56787109375,
+      "y": -4197.05224609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Nim.video.md",
+      "x": -2873.10888671875,
+      "y": -3201.24658203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - NotebookLm.md",
+      "x": 4283.74169921875,
+      "y": -5456.15966796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - NounProject.md",
+      "x": 5601.82421875,
+      "y": 3654.39990234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - NovelAi.md",
+      "x": 2201.53173828125,
+      "y": -7302.375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - OceanOfPdf.md",
+      "x": 1039.5867919921875,
+      "y": -9706.73828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Ocearch.md",
+      "x": 9296.986328125,
+      "y": -4791.6220703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - OnDemand.md",
+      "x": -2996.677490234375,
+      "y": 8171.685546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Onehack.md",
+      "x": 694.3792724609375,
+      "y": -3124.447265625
+    },
+    {
+      "id": "community",
+      "x": 2692.894775390625,
+      "y": -6642.0205078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Online-fix.me.md",
+      "x": -1955.7239990234375,
+      "y": -7823.0029296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Open Operator.md",
+      "x": -344.1102294921875,
+      "y": 7979.0263671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - OpenArt.ai.md",
+      "x": 3820.32080078125,
+      "y": -2628.375244140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - OpenRouter.md",
+      "x": -3876.992431640625,
+      "y": 760.5402221679688
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Opencode CLI.md",
+      "x": -2464.646484375,
+      "y": 7394.99755859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Opencode.md",
+      "x": -2694.81884765625,
+      "y": 6675.60107421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - OsnitIndustries.md",
+      "x": 6897.05712890625,
+      "y": -7154.33447265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Outrider.md",
+      "x": 8598.318359375,
+      "y": -315.4660949707031
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Palette.md",
+      "x": 5150.25390625,
+      "y": -4702.53173828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PartyRock aws.md",
+      "x": 3786.628173828125,
+      "y": 1528.469482421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PatternHippo.md",
+      "x": 6681.86181640625,
+      "y": -2109.702392578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PdfCoffee.md",
+      "x": 1607.6796875,
+      "y": -10270.9892578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pentestgpt.md",
+      "x": -7195.7705078125,
+      "y": -2002.44775390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Perplexity.md",
+      "x": -7894.92724609375,
+      "y": 3786.835205078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Phind.md",
+      "x": -6488.05078125,
+      "y": 4561.84228515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Photopea.md",
+      "x": 8198.1572265625,
+      "y": 4851.96630859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Photoroom.md",
+      "x": 6991.060546875,
+      "y": 5936.90087890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pi.ai.md",
+      "x": -2711.752197265625,
+      "y": 1283.0029296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Picso.md",
+      "x": 7998.9853515625,
+      "y": -904.3062133789062
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pictory.md",
+      "x": -1010.2953491210938,
+      "y": -4127.02294921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pika.art.md",
+      "x": 1122.4761962890625,
+      "y": -4649.71484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PimEyes.md",
+      "x": 6458.07763671875,
+      "y": -8590.6865234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PiracyMegaThread.md",
+      "x": -992.3088989257812,
+      "y": -9438.939453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pixai.md",
+      "x": 7107.833984375,
+      "y": 364.08935546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pixelbin.md",
+      "x": 326.0328063964844,
+      "y": -4718.998046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PlaceIt.md",
+      "x": 665.7716674804688,
+      "y": -1817.49755859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PlayPharse.md",
+      "x": 3417.340087890625,
+      "y": -5495.0751953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Playground.com.md",
+      "x": 5187.8583984375,
+      "y": 3404.062255859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Playretro.md",
+      "x": 8379.46875,
+      "y": -3606.312255859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - PodCastel.md",
+      "x": 5513.861328125,
+      "y": 308.8492126464844
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Poe.md",
+      "x": -7426.8662109375,
+      "y": 2175.609130859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Pomofocus.md",
+      "x": 2387.767822265625,
+      "y": 4469.6689453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Printify.md",
+      "x": 6481.5517578125,
+      "y": 6364.59765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ProjectIDX.md",
+      "x": 776.8346557617188,
+      "y": 9646.2197265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Quillbot.md",
+      "x": -1786.6275634765625,
+      "y": -1686.6390380859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Qwen.md",
+      "x": -6889.89208984375,
+      "y": 1637.2099609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Rabbit os intern.md",
+      "x": -4155.1787109375,
+      "y": 8536.28125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - RaveDj.md",
+      "x": 10508.302734375,
+      "y": 165.61048889160156
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Redbubble.md",
+      "x": 7748.255859375,
+      "y": 5714.111328125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Remini.md",
+      "x": 592.800537109375,
+      "y": -5592.88720703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Replit.md",
+      "x": -5276.71484375,
+      "y": 4081.415283203125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Restore.md",
+      "x": 4840.333984375,
+      "y": -3783.136474609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Roadmap.sh.md",
+      "x": -9602.9072265625,
+      "y": -1990.2626953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Roxiestreams.su.md",
+      "x": -6723.17822265625,
+      "y": -9852.078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Runway.md",
+      "x": -1011.9249267578125,
+      "y": -2637.958251953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Rytr.md",
+      "x": 2933.771728515625,
+      "y": -7756.4580078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Samfw.md",
+      "x": -8573.1181640625,
+      "y": -1655.659912109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Sandspiel.md",
+      "x": 7010.40234375,
+      "y": -1166.58837890625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - SayMine.md",
+      "x": 7992.916015625,
+      "y": -60.3238639831543
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Scenario.md",
+      "x": 7249.42041015625,
+      "y": -1395.9189453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Scrimba.md",
+      "x": -5779.24853515625,
+      "y": 1501.228271484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Seaart.ai.md",
+      "x": 3930.64599609375,
+      "y": -2005.3031005859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Sedja.md",
+      "x": 1758.13330078125,
+      "y": 3194.923095703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Sesame.md",
+      "x": 2154.30517578125,
+      "y": 6451.21240234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Shiroko.md",
+      "x": -9303.2041015625,
+      "y": -6399.15869140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Skyreels.md",
+      "x": 6497.89013671875,
+      "y": -392.35546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Skywork.ai.md",
+      "x": -2902.896240234375,
+      "y": 9521.365234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Snapdrop.md",
+      "x": 1982.90087890625,
+      "y": 3828.29150390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Soap2Day.md",
+      "x": -3154.439453125,
+      "y": -9081.7431640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Spline.md",
+      "x": 7247.2412109375,
+      "y": 4426.921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Squabble.md",
+      "x": 7748.95947265625,
+      "y": -2827.275634765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Squoosh.md",
+      "x": 2648.578125,
+      "y": 2900.16357421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Steam Rip.md",
+      "x": -3378.234619140625,
+      "y": -5103.9541015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - SteamGG.md",
+      "x": -2147.3349609375,
+      "y": -7044.53857421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Stellarium.md",
+      "x": 8951.744140625,
+      "y": -5507.67919921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Streamzy.foo.md",
+      "x": -4791.91015625,
+      "y": -10146.65625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Synthesia.md",
+      "x": 2131.09130859375,
+      "y": -3334.4091796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Teepublic.md",
+      "x": 3584.611572265625,
+      "y": 9137.2509765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - TempMail.md",
+      "x": 7084.10693359375,
+      "y": -2675.626953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Tempolabs.md",
+      "x": -4367.7001953125,
+      "y": 2780.8564453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ThebAi.md",
+      "x": -3871.77001953125,
+      "y": -930.2093505859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Theindex.moe.md",
+      "x": -2398.697265625,
+      "y": -10562.1923828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - TheswissBay.md",
+      "x": 730.2260131835938,
+      "y": -10361.751953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Tinywow.md",
+      "x": 4008.31982421875,
+      "y": -621.57373046875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ToffeShare.md",
+      "x": 2838.768798828125,
+      "y": 3831.711181640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Togather ai.md",
+      "x": -14.554064750671387,
+      "y": 2276.572265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Tome.md",
+      "x": -2651.98681640625,
+      "y": -2293.162109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - TorrentGalaxy.md",
+      "x": -2294.561279296875,
+      "y": -8905.4345703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Trae.md",
+      "x": -1178.6114501953125,
+      "y": 9709.6572265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - UnionCrax.md",
+      "x": -1216.5447998046875,
+      "y": -7553.7294921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Unscreen.md",
+      "x": -3325.305908203125,
+      "y": -1703.0897216796875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Val.town.md",
+      "x": -2269.6748046875,
+      "y": 3830.082763671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Vectal ai.md",
+      "x": -3838.927001953125,
+      "y": 5817.22900390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Vectorizer.md",
+      "x": 5330.71337890625,
+      "y": 1799.95849609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Vercel.md",
+      "x": -6069.541015625,
+      "y": 2593.84228515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Vidu.md",
+      "x": 1570.0711669921875,
+      "y": -8142.14599609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - VirusTotal.md",
+      "x": 6287.82568359375,
+      "y": 3905.402099609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - VocalRemover.md",
+      "x": 5057.26171875,
+      "y": -463.24267578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - VoiceAi.md",
+      "x": 4550.82080078125,
+      "y": -1088.073974609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Vondy.md",
+      "x": 3688.077392578125,
+      "y": 2936.15478515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Wan ai.md",
+      "x": 879.7153930664062,
+      "y": -3851.90234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - WhatDreamsCost.md",
+      "x": 4551.33251953125,
+      "y": -6615.34423828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - WhatTheFont.md",
+      "x": 5743.521484375,
+      "y": -6939.2705078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - WikiGame.md",
+      "x": 9339.9130859375,
+      "y": -2248.896484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Windsurf.md",
+      "x": -108.21919250488281,
+      "y": 9795.345703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - WonderStudio.md",
+      "x": -704.171630859375,
+      "y": -3156.43994140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Wordtune.md",
+      "x": 3774.64501953125,
+      "y": -8129.517578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - World of pc games.md",
+      "x": -2800.515625,
+      "y": -7333.02001953125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - You.com.md",
+      "x": -7255.861328125,
+      "y": 3513.8916015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - YouDj.md",
+      "x": 10769.0107421875,
+      "y": -833.7459106445312
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Youware.md",
+      "x": -1916.2249755859375,
+      "y": 1037.6173095703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - Zcode.md",
+      "x": -3538.732421875,
+      "y": 4163.02392578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ai-sdk.dev.md",
+      "x": -456.5224304199219,
+      "y": 7109.97705078125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - aimlapi.com.md",
+      "x": -9185.4990234375,
+      "y": 953.2328491210938
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - atopgames.md",
+      "x": -634.32275390625,
+      "y": -8695.5478515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - azgaar map.md",
+      "x": 9769.98046875,
+      "y": -3955.311279296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - cerebrascoder.md",
+      "x": -5300.11328125,
+      "y": 3401.78564453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - chat1.oaichat.cc.md",
+      "x": -2483.031494140625,
+      "y": 5208.59814453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - chatplayground.ai.md",
+      "x": -4588.47509765625,
+      "y": -1017.4441528320312
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - chef Convex.md",
+      "x": -2250.921875,
+      "y": 4589.37060546875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - deepwebnest.com.md",
+      "x": -312.4551696777344,
+      "y": -5210.306640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - dezgo.com.md",
+      "x": 3930.93701171875,
+      "y": 260.9738464355469
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - dreamai.md",
+      "x": 7308.82958984375,
+      "y": -4231.015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - epic-sports.live.md",
+      "x": -5573.27880859375,
+      "y": -9832.52734375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - freelearninglist.md",
+      "x": -6579.462890625,
+      "y": -113.77531433105469
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - gogoanime.md",
+      "x": -7228.2763671875,
+      "y": -7673.103515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - higgsfield.ai.md",
+      "x": 4841.181640625,
+      "y": 198.9485321044922
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - intangible.ai.md",
+      "x": 7633.361328125,
+      "y": 1490.483154296875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ish.junioralive.md",
+      "x": -4266.4775390625,
+      "y": 6471.49267578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - kickasstorrent.md",
+      "x": -3673.21728515625,
+      "y": -9729.2646484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - komo.ai.md",
+      "x": -5269.96923828125,
+      "y": 8360.009765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - kreaAi.md",
+      "x": 3272.583740234375,
+      "y": 934.6287231445312
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - livebench.ai.md",
+      "x": 1516.360595703125,
+      "y": 1222.7337646484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - luisurrutia.md",
+      "x": 5928.42626953125,
+      "y": 5462.0400390625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - m4ckd0ge.md",
+      "x": -5277.81689453125,
+      "y": -4913.10791015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - mirexa.md",
+      "x": -4281.7529296875,
+      "y": 4808.57568359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - morphic.sh.md",
+      "x": -5947.68505859375,
+      "y": 7506.48974609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ninjachat.md",
+      "x": -2023.0302734375,
+      "y": 3135.9990234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - piclumen.md",
+      "x": 4910.9326171875,
+      "y": -2111.167724609375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ppv.st.md",
+      "x": -4333.79345703125,
+      "y": -11279.1142578125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - reactbits.md",
+      "x": -1351.0550537109375,
+      "y": -71.10711669921875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - reloadedsteam.md",
+      "x": -2593.78271484375,
+      "y": -6346.53857421875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - repper.md",
+      "x": 7973.42724609375,
+      "y": 810.1109619140625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - ripped.guide.md",
+      "x": 1302.181884765625,
+      "y": -5575.66943359375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - rundiffusion.md",
+      "x": 4477.572265625,
+      "y": 3959.900634765625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - scira.ai.md",
+      "x": -5881.75830078125,
+      "y": 6594.37939453125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - seedream.md",
+      "x": 5639.4345703125,
+      "y": -2325.72412109375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - sportzfyplay.com.md",
+      "x": -3623.76171875,
+      "y": -11167.2880859375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - streameastas.cx.md",
+      "x": -5166.13916015625,
+      "y": -11204.7265625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - streamsgates.io.md",
+      "x": -2990.162841796875,
+      "y": -11203.9345703125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - t3chat.md",
+      "x": -3551.954345703125,
+      "y": -205.2650146484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - theaisurfer.com.md",
+      "x": -1667.0367431640625,
+      "y": -3449.7490234375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - thinkdiffusion.md",
+      "x": 3648.925537109375,
+      "y": 4777.7041015625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - thispersondoesntexsist.md",
+      "x": 8157.36962890625,
+      "y": 1879.6334228515625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - torrminatorr.md",
+      "x": -1293.57177734375,
+      "y": -8354.1083984375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - universe.io.md",
+      "x": 5107.19970703125,
+      "y": 5973.46923828125
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - v0.md",
+      "x": -4114.8427734375,
+      "y": 7205.34521484375
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - vercept.md",
+      "x": 603.3329467773438,
+      "y": 8167.9013671875
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - vidyo.md",
+      "x": 2361.158935546875,
+      "y": -2045.806640625
+    },
+    {
+      "id": "07 Notes/bookmarks/Bookmark - wotaku.md",
+      "x": -1282.53271484375,
+      "y": -10463.5205078125
+    },
+    {
+      "id": "07 Notes/bookmarks/bookmark - Nari labs.md",
+      "x": -2621.688232421875,
+      "y": -912.6417236328125
+    },
+    {
+      "id": "07 Notes/cricket.md",
+      "x": 3761.6884765625,
+      "y": -12374.216796875
+    },
+    {
+      "id": "07 Notes/football.md",
+      "x": -6574.90869140625,
+      "y": -11912.5224609375
+    },
+    {
+      "id": "07 Notes/gacha.md",
+      "x": -10324.7587890625,
+      "y": -4030.734375
+    },
+    {
+      "id": "07 Notes/manga.md",
+      "x": -10913.2509765625,
+      "y": -7354.4453125
+    },
+    {
+      "id": "07 Notes/megathread.md",
+      "x": 2507.546630859375,
+      "y": -9861.484375
+    },
+    {
+      "id": "07 Notes/repacks.md",
+      "x": -9266.5537109375,
+      "y": 1161.5902099609375
+    },
+    {
+      "id": "07 Notes/resource.md",
+      "x": -12099.765625,
+      "y": -2710.20458984375
+    },
+    {
+      "id": "07 Notes/tts.md",
+      "x": 4948.4140625,
+      "y": -9276.099609375
+    },
+    {
+      "id": "07 Notes/videoGen.md",
+      "x": 5304.93115234375,
+      "y": -8382.1962890625
+    },
+    {
+      "id": "07 Notes/webhosting.md",
+      "x": -2605.72314453125,
+      "y": 2173.935546875
+    },
+    {
+      "id": "02 Weekly/2026/2026-W34.md",
+      "x": -12269.90625,
+      "y": 2382.494384765625
+    },
+    {
+      "id": "2026-08-17-Monday",
+      "x": -13131.7578125,
+      "y": 183.75721740722656
+    },
+    {
+      "id": "2026-08-18-Tuesday",
+      "x": -12307.390625,
+      "y": 1123.53271484375
+    },
+    {
+      "id": "2026-08-19-Wednesday",
+      "x": -12803.7783203125,
+      "y": -408.6794738769531
+    },
+    {
+      "id": "2026-08-20-Thursday",
+      "x": -12260.9892578125,
+      "y": 384.2891845703125
+    },
+    {
+      "id": "2026-08-21-Friday",
+      "x": -13223.2861328125,
+      "y": 1579.810546875
+    },
+    {
+      "id": "2026-08-22-Saturday",
+      "x": -12542.404296875,
+      "y": 1846.8681640625
+    }
+  ],
+  "pinnedNodes": [],
+  "globalOptions": {},
+  "workspacesGraphData": {},
+  "automaticallyRestoreNodePositions": true,
+  "enableSaveOptions": false,
+  "enableWorkspaces": false,
+  "timesShowedRestoredNotification": 5,
+  "showSaveNotification": false,
+  "enableGraphSimulationCommands": false,
+  "enableAutoSave": false,
+  "autoSaveIntervalMinutes": 5
+}

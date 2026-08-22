@@ -1,0 +1,330 @@
+/* ========================================================
+   🌌 COSMIC PIXEL HUD CALENDAR (JOURNALS PLUGIN)
+   Wallpaper Palette: Rose -> Amber -> Violet -> Cyan -> Teal -> Indigo
+   ======================================================== */
+
+:root {
+    /* Wallpaper Gradient Palette */
+    --wp-rose: #f472b6;
+    /* Row 1 / W31 - Sunset Rose Pink */
+    --wp-amber: #fbbf24;
+    /* Row 2 / W32 - Golden Horizon */
+    --wp-purple: #c084fc;
+    /* Row 3 / W33 - Nebula Violet */
+    --wp-cyan: #38bdf8;
+    /* Row 4 / W34 - Satellite Cyan */
+    --wp-teal: #2dd4bf;
+    /* Row 5 / W35 - Horizon Teal */
+    --wp-indigo: #818cf8;
+    /* Row 6 / W36 - Midnight Indigo */
+
+    --wp-hud-bg: #000000;
+    --wp-border: rgba(255, 255, 255, 0.1);
+}
+
+/* 1. Main Calendar Wrapper (The Terminal Screen) */
+body .workspace-leaf-content[data-type="journals"] .view-content {
+    padding: 4px 2px !important;
+    overflow-x: hidden !important;
+}
+
+body .calendar.month-grid {
+    /* Override inline Vue variables with important to enforce colors */
+    --7ba77d1e: #38bdf8 !important;
+    --635b4840: rgba(56, 189, 248, 0.4) !important;
+    --1f290d0e: #ffffff !important;
+    --baf56b3a: #8b5cf6 !important;
+
+    background: var(--wp-hud-bg) !important;
+    padding: 6px 4px !important;
+    border: 1px solid var(--wp-border) !important;
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+/* Make everything inside use a crisp monospace font */
+body .calendar.month-grid * {
+    font-family: 'JetBrains Mono', 'Courier New', monospace !important;
+    text-transform: uppercase !important;
+}
+
+/* 2. Header (Month / Year Navigation) */
+body .calendar-header {
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.1) !important;
+    padding-bottom: 8px !important;
+    margin-bottom: 8px !important;
+    letter-spacing: 1.5px !important;
+    color: var(--wp-cyan) !important;
+    font-weight: 700 !important;
+}
+
+/* Navigation Arrow Buttons */
+.calendar-view-header button,
+.calendar-header button,
+body .calendar-header .icon-button {
+    color: var(--wp-cyan) !important;
+    border-radius: 4px !important;
+    transition: all 0.2s ease !important;
+}
+
+.calendar-view-header button:hover,
+.calendar-header button:hover {
+    background: rgba(56, 189, 248, 0.4) !important;
+    color: #ffffff !important;
+}
+
+/* 3. Grid Structure & Spacing */
+body .calendar-grid {
+    gap: 3px 2px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+/* 4. Weekdays Header (Mon, Tue, Wed...) */
+body .calendar-grid .week-day {
+    color: var(--wp-purple) !important;
+    font-size: 0.68em !important;
+    font-weight: 600 !important;
+    letter-spacing: 0.5px !important;
+    opacity: 0.9 !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding-bottom: 4px !important;
+    box-sizing: border-box !important;
+}
+
+/* 5. General Day & Week Buttons Base Style */
+body .calendar-grid>button.clickable,
+body .calendar-grid>button {
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    background-color: rgba(9, 18, 31, 0.65) !important;
+    border-radius: 50% !important;
+    color: #a1a1aa !important;
+    transition: all 0.18s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    width: 100% !important;
+    max-width: 25px !important;
+    aspect-ratio: 1 / 1 !important;
+    height: auto !important;
+    margin: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 0.74em !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* ========================================================
+   🌈 WALLPAPER GRADIENT ROW STYLING (W31 -> W36)
+   ======================================================== */
+
+/* ROW 1: SUNSET ROSE (W31 + Days) */
+body .calendar-grid>button:nth-of-type(1) {
+    color: var(--wp-rose) !important;
+    border: 1px solid var(--wp-rose) !important;
+    background: rgba(244, 114, 182, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+2):nth-of-type(-n+8) {
+    color: #fbcfe8 !important;
+    border-color: rgba(244, 114, 182, 0.2) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+2):nth-of-type(-n+8):hover {
+    border-color: var(--wp-rose) !important;
+    background-color: rgba(244, 114, 182, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ROW 2: GOLDEN HORIZON (W32 + Days) */
+body .calendar-grid>button:nth-of-type(9) {
+    color: var(--wp-amber) !important;
+    border: 1px solid var(--wp-amber) !important;
+    background: rgba(251, 191, 36, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+10):nth-of-type(-n+16) {
+    color: #fde68a !important;
+    border-color: rgba(251, 191, 36, 0.2) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+10):nth-of-type(-n+16):hover {
+    border-color: var(--wp-amber) !important;
+    background-color: rgba(251, 191, 36, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ROW 3: NEBULA VIOLET (W33 + Days) */
+body .calendar-grid>button:nth-of-type(17) {
+    color: var(--wp-purple) !important;
+    border: 1px solid var(--wp-purple) !important;
+    background: rgba(192, 132, 252, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+18):nth-of-type(-n+24) {
+    color: #e9d5ff !important;
+    border-color: rgba(192, 132, 252, 0.2) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+18):nth-of-type(-n+24):hover {
+    border-color: var(--wp-purple) !important;
+    background-color: rgba(192, 132, 252, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ROW 4: SATELLITE CYAN (W34 + Days) */
+body .calendar-grid>button:nth-of-type(25) {
+    color: var(--wp-cyan) !important;
+    border: 1px solid var(--wp-cyan) !important;
+    background: rgba(56, 189, 248, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+26):nth-of-type(-n+32) {
+    color: #bae6fd !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+26):nth-of-type(-n+32):hover {
+    border-color: var(--wp-cyan) !important;
+    background-color: rgba(56, 189, 248, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ROW 5: HORIZON TEAL (W35 + Days) */
+body .calendar-grid>button:nth-of-type(33) {
+    color: var(--wp-teal) !important;
+    border: 1px solid var(--wp-teal) !important;
+    background: rgba(45, 212, 191, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+34):nth-of-type(-n+40) {
+    color: #ccfbf1 !important;
+    border-color: rgba(45, 212, 191, 0.2) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+34):nth-of-type(-n+40):hover {
+    border-color: var(--wp-teal) !important;
+    background-color: rgba(45, 212, 191, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ROW 6: MIDNIGHT INDIGO (W36 + Days, if present) */
+body .calendar-grid>button:nth-of-type(41) {
+    color: var(--wp-indigo) !important;
+    border: 1px solid var(--wp-indigo) !important;
+    background: rgba(129, 140, 248, 0.15) !important;
+    font-weight: 700 !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+42):nth-of-type(-n+48) {
+    color: #c7d2fe !important;
+    border-color: rgba(129, 140, 248, 0.2) !important;
+}
+
+body .calendar-grid>button:nth-of-type(n+42):nth-of-type(-n+48):hover {
+    border-color: var(--wp-indigo) !important;
+    background-color: rgba(129, 140, 248, 0.25) !important;
+    color: #ffffff !important;
+    transform: scale(1.1) !important;
+}
+
+/* ========================================================
+   6. SPECIAL STATES & ACCENTS
+   ======================================================== */
+
+/* Days belonging to adjacent months */
+body .calendar-grid>button[data-outside] {
+    opacity: 0.25 !important;
+    background-color: transparent !important;
+    border: 1px dashed rgba(161, 161, 170, 0.2) !important;
+    color: #71717a !important;
+}
+
+/* Today's Date (Halo Ring Highlight) */
+body .calendar-grid>button[data-today] {
+    border: 2px solid var(--wp-cyan) !important;
+    background-color: rgba(56, 189, 248, 0.25) !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+    transform: scale(1.05) !important;
+}
+
+/* Active Selection (Clicked Day) */
+body .calendar-grid>button[data-selected] {
+    border: 2px solid #a855f7 !important;
+    background: linear-gradient(135deg, #a855f7 0%, #38bdf8 100%) !important;
+    color: #ffffff !important;
+    font-weight: 800 !important;
+}
+
+/* Activity Markers (Glowing Dots for Notes) */
+body .calendar-grid .shape-circle,
+body .calendar-grid .shape-square,
+body .calendar-grid .icon-decoration {
+    background-color: var(--wp-purple) !important;
+    opacity: 0.9 !important;
+    width: 3.5px !important;
+    height: 3.5px !important;
+    border-radius: 50% !important;
+    position: absolute !important;
+    bottom: 2.5px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    pointer-events: none !important;
+}
+
+/* ========================================================
+   11. KILL THE YEAR NAVIGATION ARROWS (<< AND >>)
+   ======================================================== */
+
+/* Target the absolute first and last <span> elements in the header */
+.calendar-view-header>span:first-of-type,
+.calendar-view-header>span:last-of-type {
+    display: none !important;
+}
+
+/* Hard-target fallback using the exact Vue data attributes from your screenshot */
+span[data-v-37c08292][data-v-3dd8502b]:first-of-type,
+span[data-v-37c08292][data-v-3dd8502b]:last-of-type {
+    display: none !important;
+}
+
+/* ========================================================
+   12. DAILY NOTE INDICATOR REDESIGN
+   ======================================================== */
+
+/* ========================================================
+   12. DAILY NOTE INDICATOR REDESIGN
+   ======================================================== */
+
+/* Ensure the calendar day button supports absolute positioning for the dot */
+body .calendar-grid>button {
+    position: relative !important;
+}
+
+/* Subtle background for cells with notes, keeping it professional without heavy glow */
+body .calendar-grid>button:has(.shape-circle),
+body .calendar-grid>button:has(.shape-square),
+body .calendar-grid>button:has(.icon-decoration) {
+    background: rgba(192, 132, 252, 0.08) !important;
+}
+
+/* Give the text inside the weekly buttons more visual padding */
+body .calendar-grid>button:nth-of-type(8n+1) {
+    font-size: 0.60em !important;
+}

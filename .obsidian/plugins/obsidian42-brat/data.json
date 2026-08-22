@@ -1,0 +1,29 @@
+{
+  "pluginList": [
+    "swayinfo/eltonlabs-book-reader",
+    "Karlos-Obsidian-Tutorials/time-garden-plugin-public"
+  ],
+  "pluginSubListFrozenVersion": [
+    {
+      "repo": "swayinfo/eltonlabs-book-reader",
+      "version": "latest"
+    },
+    {
+      "repo": "Karlos-Obsidian-Tutorials/time-garden-plugin-public",
+      "version": "latest"
+    }
+  ],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": true,
+  "enableAfterInstall": true,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": false,
+  "notificationsEnabled": true,
+  "globalTokenName": "git",
+  "personalAccessToken": "",
+  "selectLatestPluginVersionByDefault": false,
+  "allowIncompatiblePlugins": false
+}

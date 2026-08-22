@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "7752b3faebd0c7ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "ecd43610f4d0a5ca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7eb67099c9af85e8",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "67c0c6f18f7dd6a1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a500ab0f74240030",
+        "type": "tabs",
+        "dimension": 52.669039145907476,
+        "children": [
+          {
+            "id": "fdc29a2ffebad745",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {},
+              "icon": "message-square",
+              "title": "Copilot"
+            }
+          },
+          {
+            "id": "f4207f11985548d8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "cff4ff75ab7cb931",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ccd8ac7e9db6f7b7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "b025e8efdaa4dbe8",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "journal-calendar"
+            }
+          },
+          {
+            "id": "d40d23e2a38476ac",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "d47289c0838ce906",
+        "type": "tabs",
+        "dimension": 47.330960854092524,
+        "children": [
+          {
+            "id": "0a4b5313cfb3fe9e",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 256.5
+  },
+  "right": {
+    "id": "e23cd310ebc2ff73",
+    "type": "split",
+    "children": [
+      {
+        "id": "f96428438c8d1c76",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8c38d93f243ac46c",
+            "type": "leaf",
+            "state": {
+              "type": "welcome-widget-view",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "97e620f21b9cc12c",
+            "type": "leaf",
+            "state": {
+              "type": "welcome-widget-view",
+              "state": {},
+              "icon": "layout-dashboard",
+              "title": "Dashboard"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 243.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "productivity-hub:Open Productivity Hub": false,
+      "study-hub:Open Study Hub": false,
+      "study-hub:Open 3D Concept Map": false,
+      "obsidian-git:Open Git source control": false,
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "templates:Insert template": false,
+      "canvas:Create new canvas": false,
+      "iconic:Open rulebook": false,
+      "pexels-banner:🚩 Pixel Banner Menu": false,
+      "obsidian42-brat:BRAT": false,
+      "callout-manager:Insert Callout": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "cmdr:Journals: Open calendar": false,
+      "cmdr:Open daily note": false,
+      "cmdr:Time Garden Plugin: Reset Welcome Experience": false,
+      "cmdr:Time Garden Plugin: Open Time Garden Settings": false,
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false,
+      "elton-reader-books:Book Reader — Library": false,
+      "watchlog:Watchlog": false
+    }
+  },
+  "active": "7eb67099c9af85e8",
+  "lastOpenFiles": [
+    "07 Notes/yoo gang whatsup.md",
+    "2nd-Brain/README.md",
+    "2nd-Brain",
+    "02 Weekly/2026/2026-W36.md",
+    "02 Weekly/2026/2026-W35.md",
+    "02 Weekly/2026/2026-W34.md",
+    "02 Weekly/2026/2026-W33.md",
+    "02 Weekly/2026/2026-W32.md",
+    "02 Weekly/2026/2026-W31.md",
+    "02 Weekly/2026",
+    "07 Notes/hello world i am here.md",
+    "07 Notes/Polymath - Thing which i need to master during college.md",
+    "WatchLog/Reading/Books/The Subtle Art of Not Giving a F-ck- A Counterintuitive Approach to Living a Good Life.md",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-20/plugin-data.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-20/reading-highlights.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-20/reading-progress.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-20",
+    "07 Notes/football.md",
+    "07 Notes/Food.md",
+    "07 Notes/gacha.md",
+    "07 Notes/repacks.md",
+    "07 Notes/Writing.md",
+    "07 Notes/tts.md",
+    "07 Notes/SearchBots.md",
+    "07 Notes/Audio.md",
+    "07 Notes/Fun.md",
+    "07 Notes/Game.md",
+    "07 Notes/anime.md",
+    "07 Notes/Piracy.md",
+    "07 Notes/Presentation.md",
+    "07 Notes/Animation.md",
+    "07 Notes/community.md",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-19/plugin-data.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-highlights.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-19/reading-progress.json",
+    "books/backup/_reader-rescue/_reader-rescue-2026-08-19",
+    "Untitled 4.canvas",
+    "Untitled 3.canvas",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "pixel-banner-images/mount-olympus-in-chunky-8-bit-pixel-art-with-ze.png",
+    "pixel-banner-images/mount-olympus-in-vibrant-8-bit-pixel-art-with-c.png",
+    "assets/bg.jpg",
+    "assets/b.gif",
+    "assets/Create_a_perfectly_seamless_s.gif",
+    "assets/logo.png",
+    "06 Templates/Images/QAIdeaBanner.gif",
+    "06 Templates/Images/DashboardBanner.gif",
+    "My Path/06 Templates/Images/Secret.gif",
+    "My Path/06 Templates/Images/Chart example.png"
+  ]
+}

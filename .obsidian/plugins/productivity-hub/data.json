@@ -1,0 +1,38 @@
+{
+  "habits": [
+    {
+      "id": "msqb3flxwbuave1",
+      "title": "Daily CodeChef",
+      "icon": "",
+      "frequency": 7,
+      "color": "#fbbf24"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "msqc5pd2nk4nq6n",
+      "title": "codeForce",
+      "icon": "",
+      "projectId": null,
+      "status": "completed",
+      "dueDate": "2026-08-12",
+      "createdAt": "2026-08-12T17:00:57.638Z"
+    },
+    {
+      "id": "msqc6fm4dobbg77",
+      "title": "code force",
+      "icon": "",
+      "projectId": null,
+      "status": "not-started",
+      "dueDate": "2026-12-12",
+      "createdAt": "2026-08-12T17:01:31.660Z"
+    }
+  ],
+  "projects": [],
+  "habitLogs": {
+    "2026-08-12": [
+      "msqb3flxwbuave1",
+      "msqc1l23nghjmpm"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+/* 1. Hide the tab icon strip in the left sidebar */
+.workspace-split.mod-left-split .workspace-tab-header-container {
+    display: none !important;
+}
+
+/* 2. Hide the view action headers above panels like Graph and Calendar */
+.workspace-split.mod-left-split .view-header {
+    display: none !important;
+}
+
+/* 3. Force sidebar panels to stretch and use the freed vertical space */
+.workspace-split.mod-left-split .view-content {
+    height: 100% !important;
+}
+
+/* Completely hide the left-side ribbon bar */
+.workspace-ribbon {
+    display: none !important;
+}
+
+/* Add padding to the left sidebar after hiding the ribbon */
+.workspace-split.mod-left-split {
+    padding-left: 2px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+/* Ensure the file tree inside sits comfortably */
+.nav-files-container {
+    padding-left: 4px !important;
+}
+
+/* Delete the entire calendar header row (Today + Target icon) */
+.calendar-view-header {
+    display: none !important;
+}

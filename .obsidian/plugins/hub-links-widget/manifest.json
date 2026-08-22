@@ -1,0 +1,10 @@
+{
+  "id": "hub-links-widget",
+  "name": "Hub Links Widget",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "Displays tube-shaped hub links on the new tab screen.",
+  "author": "Antigravity",
+  "authorUrl": "",
+  "isDesktopOnly": false
+}

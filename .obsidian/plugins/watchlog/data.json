@@ -1,0 +1,780 @@
+{
+  "titles": [
+    {
+      "id": "interstellar",
+      "title": "Interstellar",
+      "type": "Movie",
+      "status": "Completed",
+      "priority": "",
+      "review": "",
+      "rating": 5,
+      "notes": "",
+      "dateStarted": null,
+      "dateFinished": null,
+      "dateAdded": "2026-08-08T09:29:36.783Z",
+      "dateModified": "2026-08-08T10:06:11.022Z",
+      "totalEpisodes": 1,
+      "episodeDuration": 169,
+      "releaseDate": "2014-11-07",
+      "externalLink": "https://www.imdb.com/title/tt0816692",
+      "seasons": [
+        {
+          "name": "Movie",
+          "episodes": 1,
+          "offset": 0,
+          "skippedEpisodes": []
+        }
+      ],
+      "watchedEpisodes": [
+        1
+      ],
+      "favorite": false,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BYzdjMDAxZGItMjI2My00ODA1LTlkNzItOWFjMDU5ZDJlYWY3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "trailerUrl": "none",
+      "manualTrailerUrl": "",
+      "director": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Matthew McConaughey",
+        "Anne Hathaway",
+        "Jessica Chastain"
+      ],
+      "communityRating": 8.7,
+      "communityVotes": 2516752,
+      "communitySource": "imdb",
+      "communityRatingLastFetched": "2026-08-08T09:29:37.469Z",
+      "studio": [
+        "none"
+      ],
+      "manualStudio": [],
+      "manualPosterUrl": "",
+      "anilistId": 0
+    },
+    {
+      "id": "project-hail-mary",
+      "title": "Project Hail Mary",
+      "type": "Movie",
+      "status": "Watching",
+      "priority": "",
+      "review": "",
+      "rating": 4,
+      "notes": "",
+      "dateStarted": "2026-08-07",
+      "dateFinished": null,
+      "dateAdded": "2026-08-08T09:31:26.258Z",
+      "dateModified": "2026-08-08T19:18:53.336Z",
+      "totalEpisodes": 1,
+      "episodeDuration": 156,
+      "releaseDate": "2026-03-20",
+      "externalLink": "https://www.imdb.com/title/tt12042730",
+      "seasons": [
+        {
+          "name": "Movie",
+          "episodes": 1,
+          "offset": 0,
+          "skippedEpisodes": []
+        }
+      ],
+      "watchedEpisodes": [],
+      "favorite": false,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+      "trailerUrl": "none",
+      "manualTrailerUrl": "",
+      "director": [
+        "Phil Lord",
+        "Christopher Miller"
+      ],
+      "cast": [
+        "Ryan Gosling",
+        "Sandra Hüller",
+        "James Ortiz"
+      ],
+      "communityRating": 8.2,
+      "communityVotes": 433769,
+      "communitySource": "imdb",
+      "communityRatingLastFetched": "2026-08-08T09:31:26.962Z",
+      "studio": [
+        "none"
+      ],
+      "manualStudio": [],
+      "manualPosterUrl": "",
+      "anilistId": 0
+    },
+    {
+      "id": "peaky-blinders",
+      "title": "Peaky Blinders",
+      "type": "TV Show",
+      "status": "Watching",
+      "priority": "Medium",
+      "review": "",
+      "rating": 5,
+      "notes": "aura farming",
+      "dateStarted": null,
+      "dateFinished": null,
+      "dateAdded": "2026-08-09T05:30:58.475Z",
+      "dateModified": "2026-08-09T10:00:47.918Z",
+      "totalEpisodes": 36,
+      "episodeDuration": 45,
+      "releaseDate": "2014-09-30",
+      "externalLink": "https://www.imdb.com/title/tt2442560",
+      "seasons": [
+        {
+          "name": "Season 1",
+          "episodes": 6,
+          "offset": 0,
+          "skippedEpisodes": []
+        },
+        {
+          "name": "Season 2",
+          "episodes": 6,
+          "offset": 6,
+          "skippedEpisodes": []
+        },
+        {
+          "name": "Season 3",
+          "episodes": 6,
+          "offset": 12,
+          "skippedEpisodes": []
+        },
+        {
+          "name": "Season 4",
+          "episodes": 6,
+          "offset": 18,
+          "skippedEpisodes": []
+        },
+        {
+          "name": "Season 5",
+          "episodes": 6,
+          "offset": 24,
+          "skippedEpisodes": []
+        },
+        {
+          "name": "Season 6",
+          "episodes": 6,
+          "offset": 30,
+          "skippedEpisodes": []
+        }
+      ],
+      "watchedEpisodes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "favorite": false,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BOGM0NGY3ZmItOGE2ZC00OWIxLTk0N2EtZWY4Yzg3ZDlhNGI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+      "trailerUrl": "none",
+      "manualTrailerUrl": "",
+      "director": [
+        "Steven Knight"
+      ],
+      "cast": [
+        "Cillian Murphy",
+        "Paul Anderson",
+        "Sophie Rundle"
+      ],
+      "communityRating": 8.7,
+      "communityVotes": 771795,
+      "communitySource": "imdb",
+      "communityRatingLastFetched": "2026-08-09T05:30:59.095Z",
+      "studio": [
+        "none"
+      ],
+      "manualStudio": [],
+      "manualPosterUrl": "",
+      "anilistId": 0
+    }
+  ],
+  "groups": [],
+  "settings": {
+    "colorTheme": "nightfall",
+    "dateFormat": "european",
+    "defaultWatchlistView": "rows",
+    "autoCompleteOnLastEpisode": true,
+    "setFinishDateAutomatically": false,
+    "omdbApiKey": "499efd3",
+    "tmdbApiKey": "",
+    "googleBooksApiKey": "AIzaSyCtuSpTLU5dFohqu3bWynyDKFAKsnnkhzs",
+    "activeApi": "OMDb",
+    "animeApiSource": "jikan",
+    "gamesApiSource": "rawg",
+    "rawgApiKey": "",
+    "igdbClientId": "",
+    "igdbClientSecret": "",
+    "steamApiKey": "",
+    "steamId": "",
+    "typeApiMapping": {
+      "Korean TV Show": "movie",
+      "Animation": "anime"
+    },
+    "types": [
+      {
+        "name": "Anime",
+        "color": "#1D9E75"
+      },
+      {
+        "name": "Movie",
+        "color": "#378ADD"
+      },
+      {
+        "name": "TV Show",
+        "color": "#BA7517"
+      },
+      {
+        "name": "Korean TV Show",
+        "color": "#7F77DD"
+      },
+      {
+        "name": "Animation",
+        "color": "#D85A30"
+      }
+    ],
+    "statuses": [
+      {
+        "name": "Watching",
+        "color": "#1D9E75"
+      },
+      {
+        "name": "Plan to watch",
+        "color": "#00A9A5"
+      },
+      {
+        "name": "Completed",
+        "color": "#378ADD"
+      },
+      {
+        "name": "To be released",
+        "color": "#E8873A"
+      },
+      {
+        "name": "Dropped",
+        "color": "#E24B4A"
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Nah",
+        "color": "#E24B4A"
+      },
+      {
+        "name": "Awesome",
+        "color": "#1D9E75"
+      },
+      {
+        "name": "Marvelous",
+        "color": "#7F77DD"
+      }
+    ],
+    "priorities": [
+      {
+        "name": "Low",
+        "color": "#888780"
+      },
+      {
+        "name": "Medium",
+        "color": "#3b82f6"
+      },
+      {
+        "name": "High",
+        "color": "#E24B4A"
+      }
+    ],
+    "rootFolder": "WatchLog",
+    "autoCreateFolders": true,
+    "coloredTypeBadges": true,
+    "openWatchlistAfterAdd": true,
+    "dashboardCardStyle": "circles",
+    "cardSize": 0,
+    "cardSizeMobile": 0,
+    "cardTextStyles": {
+      "watchlist": "inside",
+      "games": "inside",
+      "reading": "inside",
+      "upcoming": "inside"
+    },
+    "halfStarRatings": true,
+    "ratingSystem": [
+      {
+        "label": "Poor",
+        "color": "#E24B4A"
+      },
+      {
+        "label": "Fair",
+        "color": "#E28C3C"
+      },
+      {
+        "label": "Good",
+        "color": "#378ADD"
+      },
+      {
+        "label": "Great",
+        "color": "#1D9E75"
+      },
+      {
+        "label": "Masterpiece",
+        "color": "#7F77DD"
+      }
+    ],
+    "episodeNumbering": "absolute",
+    "defaultAddType": "__wl_last_used__",
+    "lastAddedType": "TV Show",
+    "dashboardTopCredits": 5,
+    "readingTypeColors": {
+      "manga": "#D4537E",
+      "book": "#D85A30"
+    },
+    "customListsFolder": "WatchLog/CustomLists",
+    "defaultCustomColumns": [],
+    "draftsVaultTag": "#watchlog",
+    "draftsAfterAdding": "keep",
+    "customListTabOrder": [],
+    "showHintBanners": true,
+    "showUpcomingStatusBar": true,
+    "upcomingTrackerView": "list",
+    "rowsLayout": [
+      {
+        "id": "favorites",
+        "enabled": false
+      },
+      {
+        "id": "recommended",
+        "enabled": false
+      },
+      {
+        "id": "recentlyAdded",
+        "enabled": false
+      },
+      {
+        "id": "recentlyWatched",
+        "enabled": false
+      },
+      {
+        "id": "groups",
+        "enabled": false
+      },
+      {
+        "id": "recentlyReleased",
+        "enabled": false
+      },
+      {
+        "id": "byType",
+        "enabled": false
+      },
+      {
+        "id": "byStatus",
+        "enabled": false
+      }
+    ],
+    "listFilters": {
+      "typeExclude": [],
+      "statusExclude": [],
+      "groupExclude": [],
+      "ratingExclude": [],
+      "priorityExclude": [],
+      "sort": "dateAdded",
+      "sortDir": "desc",
+      "secondSort": "none",
+      "secondSortDir": "asc",
+      "ratingEmptyOnly": false,
+      "recentlyArrivedOnly": false,
+      "groupsOnly": false,
+      "favoritesOnly": false
+    },
+    "gamesFilters": {
+      "genreExclude": [],
+      "statusExclude": [],
+      "ratingExclude": [],
+      "priorityExclude": [],
+      "platformExclude": [],
+      "groupExclude": [],
+      "sort": "dateAdded",
+      "sortDir": "desc",
+      "secondSort": "none",
+      "secondSortDir": "asc"
+    },
+    "seasonPalette": [
+      "#1D9E75",
+      "#BA7517",
+      "#378ADD",
+      "#7F77DD",
+      "#D85A30",
+      "#D4537E",
+      "#639922",
+      "#888780"
+    ]
+  },
+  "airtime": [],
+  "posterRetryDone": true,
+  "recommendedDaily": {
+    "date": "2026-08-08",
+    "ids": []
+  },
+  "migratedReadingHistory": true,
+  "history": [
+    {
+      "id": "1786181376883-7vdie",
+      "timestamp": "2026-08-08T09:29:36.883Z",
+      "message": "Interstellar (Movie) was added on Saturday 08/08/2026 at 14:59",
+      "source": "Watchlist",
+      "action": "added",
+      "titleName": "Interstellar"
+    },
+    {
+      "id": "1786181486303-xns2r",
+      "timestamp": "2026-08-08T09:31:26.303Z",
+      "message": "Project Hail Mary (Movie) was added on Saturday 08/08/2026 at 15:01",
+      "source": "Watchlist",
+      "action": "added",
+      "titleName": "Project Hail Mary"
+    },
+    {
+      "id": "1786184977750-q5de3",
+      "timestamp": "2026-08-08T10:29:37.750Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) was added",
+      "source": "Reading",
+      "action": "added",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1786185076508-or8qy",
+      "timestamp": "2026-08-08T10:31:16.508Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) At page 1 / 304",
+      "source": "Reading",
+      "action": "watched",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1786185195809-3ae22",
+      "timestamp": "2026-08-08T10:33:15.809Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) At page 300 / 304",
+      "source": "Reading",
+      "action": "watched",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1786216723824-0ix1z",
+      "timestamp": "2026-08-08T19:18:43.824Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) status changed to Reading",
+      "source": "Reading",
+      "action": "status",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1786253458517-csxft",
+      "timestamp": "2026-08-09T05:30:58.517Z",
+      "message": "Peaky Blinders (TV Show) was added on Sunday 09/08/2026 at 11:00",
+      "source": "Watchlist",
+      "action": "added",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786253473558-s7gwu",
+      "timestamp": "2026-08-09T05:31:13.558Z",
+      "message": "Peaky Blinders (TV Show) episode 6 was marked as watched on Sunday 09/08/2026 at 11:01",
+      "source": "Watchlist",
+      "action": "watched",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786253476491-lmmqv",
+      "timestamp": "2026-08-09T05:31:16.491Z",
+      "message": "Peaky Blinders (TV Show) Season 1 was fully watched on Sunday 09/08/2026 at 11:01",
+      "source": "Watchlist",
+      "action": "watched",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786253478844-j6em5",
+      "timestamp": "2026-08-09T05:31:18.844Z",
+      "message": "Peaky Blinders (TV Show) Season 2 was fully watched on Sunday 09/08/2026 at 11:01",
+      "source": "Watchlist",
+      "action": "watched",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786253480726-7px9v",
+      "timestamp": "2026-08-09T05:31:20.726Z",
+      "message": "Peaky Blinders (TV Show) Season 3 was fully watched on Sunday 09/08/2026 at 11:01",
+      "source": "Watchlist",
+      "action": "watched",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786253484560-1dutm",
+      "timestamp": "2026-08-09T05:31:24.560Z",
+      "message": "Peaky Blinders (TV Show) Season 4 was fully watched on Sunday 09/08/2026 at 11:01",
+      "source": "Watchlist",
+      "action": "watched",
+      "titleName": "Peaky Blinders"
+    },
+    {
+      "id": "1786266902077-4hkzq",
+      "timestamp": "2026-08-09T09:15:02.077Z",
+      "message": "Atomic Habits: The life-changing million-copy #1 bestseller (Book) was added",
+      "source": "Reading",
+      "action": "added",
+      "titleName": "Atomic Habits: The life-changing million-copy #1 bestseller"
+    },
+    {
+      "id": "1786266917021-mu5z9",
+      "timestamp": "2026-08-09T09:15:17.021Z",
+      "message": "Atomic Habits: The life-changing million-copy #1 bestseller (Book) At page 189 / 320",
+      "source": "Reading",
+      "action": "watched",
+      "titleName": "Atomic Habits: The life-changing million-copy #1 bestseller"
+    },
+    {
+      "id": "1786269049367-r3ked",
+      "timestamp": "2026-08-09T09:50:49.367Z",
+      "message": "Project Hail Mary (Book) was added",
+      "source": "Reading",
+      "action": "added",
+      "titleName": "Project Hail Mary"
+    },
+    {
+      "id": "1786269058503-54jsd",
+      "timestamp": "2026-08-09T09:50:58.503Z",
+      "message": "Project Hail Mary (Book) status changed to Reading",
+      "source": "Reading",
+      "action": "status",
+      "titleName": "Project Hail Mary"
+    },
+    {
+      "id": "1786269065143-s4njn",
+      "timestamp": "2026-08-09T09:51:05.143Z",
+      "message": "Project Hail Mary (Book) At page 290 / 496",
+      "source": "Reading",
+      "action": "watched",
+      "titleName": "Project Hail Mary"
+    },
+    {
+      "id": "1786769216478-h183k",
+      "timestamp": "2026-08-15T04:46:56.478Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) was deleted",
+      "source": "Reading",
+      "action": "deleted",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1786769223479-4wf4y",
+      "timestamp": "2026-08-15T04:47:03.479Z",
+      "message": "Atomic Habits: The life-changing million-copy #1 bestseller (Book) was deleted",
+      "source": "Reading",
+      "action": "deleted",
+      "titleName": "Atomic Habits: The life-changing million-copy #1 bestseller"
+    },
+    {
+      "id": "1786769233060-xx1f5",
+      "timestamp": "2026-08-15T04:47:13.060Z",
+      "message": "Project Hail Mary (Book) was deleted",
+      "source": "Reading",
+      "action": "deleted",
+      "titleName": "Project Hail Mary"
+    },
+    {
+      "id": "1787243961399-865a5",
+      "timestamp": "2026-08-20T16:39:21.399Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) was added",
+      "source": "Reading",
+      "action": "added",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    },
+    {
+      "id": "1787243970575-d9rzg",
+      "timestamp": "2026-08-20T16:39:30.575Z",
+      "message": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life (Book) status changed to Reading",
+      "source": "Reading",
+      "action": "status",
+      "titleName": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life"
+    }
+  ],
+  "reading": {
+    "books": [
+      {
+        "id": "the-subtle-art-of-not-giving-a-f-ck-a-counterintuitive-approach-to-living-a-good-life",
+        "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+        "author": "Mark Manson",
+        "status": "Reading",
+        "rating": 4,
+        "progressUnit": "pages",
+        "pagesRead": 200,
+        "totalPages": 304,
+        "wordsRead": 0,
+        "totalWords": 0,
+        "chaptersRead": 0,
+        "totalChapters": 0,
+        "coverUrl": "https://books.google.com/books/publisher/content?id=yng_CwAAQBAJ&printsec=frontcover&img=1&zoom=2&imgtk=AFLRE72bj7WqMrChk58SfldcYKRPhw71kvAEgABu94Eci4O8FdQzJq04ZTImp9nxw0uCmRQheP7ztVN7e0FR2kEwpXdcSklkza_hXL18Whycaius3NSjUtN-QseoKF7PXCZdodKnHRC0&source=gbs_api",
+        "googleBooksId": "yng_CwAAQBAJ",
+        "vaultPage": "",
+        "dateStarted": null,
+        "dateFinished": null,
+        "releaseDate": "2016-09-13",
+        "dateAdded": "2026-08-20T16:39:21.284Z",
+        "dateModified": "2026-08-20T16:39:33.365Z",
+        "customFields": {},
+        "favorite": false
+      }
+    ],
+    "manga": [],
+    "bookColumns": [],
+    "mangaColumns": [],
+    "settings": {
+      "defaultFolder": "WatchLog/Reading",
+      "defaultStatus": "Plan to Read",
+      "bookCustomFieldStyle": "fill",
+      "mangaCustomFieldStyle": "fill",
+      "statusColors": {
+        "Reading": "#1D9E75",
+        "Completed": "#7F77DD",
+        "Plan to Read": "#E8873A",
+        "To be released": "#3A86C8",
+        "Dropped": "#E24B4A"
+      },
+      "rowsLayout": [
+        {
+          "id": "favorites",
+          "enabled": false
+        },
+        {
+          "id": "recentlyAdded",
+          "enabled": false
+        },
+        {
+          "id": "recentlyRead",
+          "enabled": false
+        },
+        {
+          "id": "recentlyReleased",
+          "enabled": false
+        },
+        {
+          "id": "byStatus",
+          "enabled": false
+        }
+      ]
+    }
+  },
+  "games": {
+    "games": [],
+    "groups": [],
+    "settings": {
+      "defaultFolder": "WatchLog/Games",
+      "defaultStatus": "Not started",
+      "statuses": [
+        {
+          "name": "Playing",
+          "color": "#3B82F6"
+        },
+        {
+          "name": "Not started",
+          "color": "#6B7280"
+        },
+        {
+          "name": "Finished",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Dropped",
+          "color": "#EF4444"
+        },
+        {
+          "name": "To be released",
+          "color": "#F59E0B"
+        },
+        {
+          "name": "TBA",
+          "color": "#EAB308"
+        }
+      ],
+      "types": [
+        {
+          "name": "Adventure",
+          "color": "#8B5CF6"
+        },
+        {
+          "name": "RPG",
+          "color": "#3B82F6"
+        },
+        {
+          "name": "Shooter",
+          "color": "#EF4444"
+        },
+        {
+          "name": "Strategy",
+          "color": "#F59E0B"
+        },
+        {
+          "name": "Platformer",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Racing",
+          "color": "#D85A30"
+        },
+        {
+          "name": "Simulation",
+          "color": "#1D9E75"
+        },
+        {
+          "name": "Sports",
+          "color": "#639922"
+        },
+        {
+          "name": "Puzzle",
+          "color": "#378ADD"
+        },
+        {
+          "name": "Fighting",
+          "color": "#993556"
+        },
+        {
+          "name": "Horror",
+          "color": "#5F5E5A"
+        },
+        {
+          "name": "Indie",
+          "color": "#D4537E"
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Windows PC",
+          "color": "#378ADD"
+        },
+        {
+          "name": "PlayStation 5",
+          "color": "#1D4ED8"
+        },
+        {
+          "name": "Xbox Series X|S",
+          "color": "#22C55E"
+        },
+        {
+          "name": "Nintendo Switch 2",
+          "color": "#E24B4A"
+        }
+      ]
+    }
+  }
+}

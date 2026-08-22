@@ -1,0 +1,5 @@
+/* Force tag nodes to use the exact same color as normal file nodes */
+.theme-dark .graph-view.color-fill-tag,
+.theme-light .graph-view.color-fill-tag {
+  color: var(--graph-node) !important;
+}

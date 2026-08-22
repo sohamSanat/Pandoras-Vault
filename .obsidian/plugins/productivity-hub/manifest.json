@@ -1,0 +1,10 @@
+{
+	"id": "productivity-hub",
+	"name": "Productivity Hub",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "A centralized dashboard for habits, tasks, projects, and calendar.",
+	"author": "Antigravity",
+	"authorUrl": "",
+	"isDesktopOnly": false
+}

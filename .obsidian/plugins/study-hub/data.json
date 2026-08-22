@@ -1,0 +1,790 @@
+{
+  "courses": [
+    {
+      "id": "cs",
+      "title": "Computer Science",
+      "icon": "Monitor",
+      "folderPath": "07 Notes/Courses/Computer Science"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a9",
+      "courseId": "cs",
+      "title": "Update Project Documentation",
+      "dueDate": "2026-08-14",
+      "completed": true,
+      "priority": "High"
+    },
+    {
+      "id": "a10",
+      "courseId": "cs",
+      "title": "Process Scheduling Algorithm",
+      "dueDate": "2026-08-14",
+      "completed": true,
+      "priority": "Medium"
+    }
+  ],
+  "exams": [],
+  "resources": [
+    {
+      "id": "r1",
+      "courseId": "cs",
+      "title": "Clean Code PDF",
+      "urlOrPath": "https://github.com",
+      "type": "book"
+    }
+  ],
+  "notes": [
+    {
+      "id": "n1",
+      "courseId": "cs",
+      "title": "Operating Systems Overview",
+      "filePath": "07 Notes/Courses/Computer Science/OS.md",
+      "createdAt": "2026-08-14"
+    }
+  ],
+  "miniTodos": [],
+  "reminders": [],
+  "tasks": [],
+  "timetable": [
+    {
+      "time": "8:00 - 9:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "9:00 - 10:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "10:00 - 11:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "11:00 - 12:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "12:00 - 1:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "1:00 - 2:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "time": "2:00 - 3:00",
+      "days": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "lifeBalance": {
+    "labels": [
+      "Career",
+      "Relationship",
+      "Growth",
+      "Lifestyle",
+      "Physical Health",
+      "Money",
+      "Family"
+    ],
+    "values": [
+      3,
+      1,
+      7,
+      7,
+      5,
+      1,
+      4
+    ]
+  },
+  "pomodoro": {
+    "workMinutes": 120,
+    "shortBreakMinutes": 5,
+    "longBreakMinutes": 15,
+    "soundEnabled": true,
+    "completedSessions": 0
+  },
+  "rpg": {
+    "level": 1,
+    "totalXp": 0,
+    "coins": 150,
+    "currentTitle": "Freshman Scholar 🎓",
+    "streakDays": 1,
+    "lastActiveDate": "2026-08-15",
+    "streakShields": 1,
+    "comboMultiplier": 1.0,
+    "lastActionTimestamp": 1786769995971,
+    "courseSkills": {},
+    "vouchers": [
+      {
+        "id": "v1",
+        "title": "1 Hour of Gaming",
+        "icon": "Gamepad2",
+        "cost": 500,
+        "category": "entertainment",
+        "description": "Guilt-free gaming session of your favorite game."
+      },
+      {
+        "id": "v2",
+        "title": "Order a Delicious Pizza / Meal",
+        "icon": "Pizza",
+        "cost": 1500,
+        "category": "food",
+        "description": "Treat yourself to your favorite takeout meal or pizza."
+      },
+      {
+        "id": "v3",
+        "title": "Watch an Episode / Movie",
+        "icon": "Film",
+        "cost": 300,
+        "category": "entertainment",
+        "description": "Sit back and enjoy a new movie or anime/series episode."
+      },
+      {
+        "id": "v4",
+        "title": "30-Minute Power Nap",
+        "icon": "Moon",
+        "cost": 200,
+        "category": "rest",
+        "description": "Recharge your energy with a deep, uninterrupted nap."
+      },
+      {
+        "id": "v5",
+        "title": "Coffee / Boba Milk Tea",
+        "icon": "Coffee",
+        "cost": 250,
+        "category": "food",
+        "description": "Grab a specialty coffee, matcha, or boba tea."
+      }
+    ],
+    "inventory": [],
+    "buffs": [
+      {
+        "id": "buff-espresso",
+        "name": "Double Espresso Buff",
+        "icon": "Coffee",
+        "description": "+50% XP earned from all Pomodoro study sessions.",
+        "unlockLevel": 4,
+        "isActive": false
+      },
+      {
+        "id": "buff-shield",
+        "name": "Streak Shield",
+        "icon": "ShieldCheck",
+        "description": "Preserves your study streak even if you miss a day.",
+        "unlockLevel": 8,
+        "isActive": false
+      },
+      {
+        "id": "buff-dilation",
+        "name": "Time Dilation & Cyber Aura",
+        "icon": "Zap",
+        "description": "Provides +25% bonus Gold Coins on all completed items.",
+        "unlockLevel": 12,
+        "isActive": false
+      }
+    ],
+    "activeBosses": [
+      {
+        "id": "boss-dsa",
+        "title": "The Big-O Hydra",
+        "subtitle": "Complexity Sovereign of Algorithms",
+        "courseId": "ds",
+        "maxHp": 600,
+        "currentHp": 600,
+        "deadlineDate": "2026-08-22",
+        "rewardXp": 1200,
+        "rewardCoins": 450,
+        "isDefeated": false,
+        "bossType": "hydra"
+      },
+      {
+        "id": "boss-oop",
+        "title": "The Compiler Dragon",
+        "subtitle": "Ancient Scourge of Architecture",
+        "courseId": "oop",
+        "maxHp": 800,
+        "currentHp": 800,
+        "deadlineDate": "2026-08-29",
+        "rewardXp": 1600,
+        "rewardCoins": 600,
+        "isDefeated": false,
+        "bossType": "dragon"
+      },
+      {
+        "id": "boss-math",
+        "title": "The Matrix Colossus",
+        "subtitle": "Unyielding Sentinel of Linear Algebra",
+        "courseId": "math",
+        "maxHp": 750,
+        "currentHp": 750,
+        "deadlineDate": "2026-09-05",
+        "rewardXp": 1500,
+        "rewardCoins": 550,
+        "isDefeated": false,
+        "bossType": "golem"
+      },
+      {
+        "id": "boss-cs-deadlock",
+        "title": "The Deadlock Demon",
+        "subtitle": "Lord of Race Conditions & Mutexes",
+        "courseId": "cs",
+        "maxHp": 900,
+        "currentHp": 900,
+        "deadlineDate": "2026-09-12",
+        "rewardXp": 1800,
+        "rewardCoins": 700,
+        "isDefeated": false,
+        "bossType": "demon"
+      },
+      {
+        "id": "boss-software-segfault",
+        "title": "The Segfault Reaper",
+        "subtitle": "Phantom of Null Pointers & Stack Smashing",
+        "courseId": "software",
+        "maxHp": 850,
+        "currentHp": 850,
+        "deadlineDate": "2026-09-19",
+        "rewardXp": 1700,
+        "rewardCoins": 650,
+        "isDefeated": false,
+        "bossType": "reaper"
+      },
+      {
+        "id": "boss-kraken-distributed",
+        "title": "The Distributed Kraken",
+        "subtitle": "Terror of Consensus & Network Partitions",
+        "courseId": "cs",
+        "maxHp": 1000,
+        "currentHp": 1000,
+        "deadlineDate": "2026-09-26",
+        "rewardXp": 2000,
+        "rewardCoins": 800,
+        "isDefeated": false,
+        "bossType": "kraken"
+      },
+      {
+        "id": "boss-turing-wizard",
+        "title": "The Turing Archmage",
+        "subtitle": "Master of Undecidability & Automata",
+        "courseId": "cs",
+        "maxHp": 1100,
+        "currentHp": 1100,
+        "deadlineDate": "2026-10-03",
+        "rewardXp": 2200,
+        "rewardCoins": 850,
+        "isDefeated": false,
+        "bossType": "wizard"
+      },
+      {
+        "id": "boss-gradient-cyborg",
+        "title": "The Gradient Overlord",
+        "subtitle": "Titan of Optimization & Neural Drift",
+        "courseId": "cs",
+        "maxHp": 1200,
+        "currentHp": 1200,
+        "deadlineDate": "2026-10-10",
+        "rewardXp": 2400,
+        "rewardCoins": 950,
+        "isDefeated": false,
+        "bossType": "cyborg"
+      },
+      {
+        "id": "boss-acid-titan",
+        "title": "The Acid Transaction Titan",
+        "subtitle": "Keeper of Relational Isolation & Locks",
+        "courseId": "software",
+        "maxHp": 950,
+        "currentHp": 950,
+        "deadlineDate": "2026-10-17",
+        "rewardXp": 1900,
+        "rewardCoins": 750,
+        "isDefeated": false,
+        "bossType": "titan"
+      },
+      {
+        "id": "boss-kernel-phoenix",
+        "title": "The Kernel Phoenix",
+        "subtitle": "Reborn Through Infinite Bootloops",
+        "courseId": "cs",
+        "maxHp": 1050,
+        "currentHp": 1050,
+        "deadlineDate": "2026-10-24",
+        "rewardXp": 2100,
+        "rewardCoins": 800,
+        "isDefeated": false,
+        "bossType": "phoenix"
+      },
+      {
+        "id": "boss-quantum-lich",
+        "title": "The Quantum Lich",
+        "subtitle": "Weaver of Superposition & Shor's Algorithm",
+        "courseId": "math",
+        "maxHp": 1300,
+        "currentHp": 1300,
+        "deadlineDate": "2026-10-31",
+        "rewardXp": 2600,
+        "rewardCoins": 1000,
+        "isDefeated": false,
+        "bossType": "lich"
+      },
+      {
+        "id": "boss-cerberus-cache",
+        "title": "The Cache Invalidation Cerberus",
+        "subtitle": "Hound of Multithreaded Chaos",
+        "courseId": "software",
+        "maxHp": 1150,
+        "currentHp": 1150,
+        "deadlineDate": "2026-11-07",
+        "rewardXp": 2300,
+        "rewardCoins": 900,
+        "isDefeated": false,
+        "bossType": "cerberus"
+      },
+      {
+        "id": "boss-asymptotic-chimera",
+        "title": "The Asymptotic Chimera",
+        "subtitle": "Amalgam of NP-Complete Reductions",
+        "courseId": "ds",
+        "maxHp": 1400,
+        "currentHp": 1400,
+        "deadlineDate": "2026-11-14",
+        "rewardXp": 2800,
+        "rewardCoins": 1100,
+        "isDefeated": false,
+        "bossType": "chimera"
+      },
+      {
+        "id": "boss-crypto-behemoth",
+        "title": "The Cryptographic Behemoth",
+        "subtitle": "Guardian of Elliptic Curves & ZK-Proofs",
+        "courseId": "cs",
+        "maxHp": 1500,
+        "currentHp": 1500,
+        "deadlineDate": "2026-11-21",
+        "rewardXp": 3000,
+        "rewardCoins": 1200,
+        "isDefeated": false,
+        "bossType": "beast"
+      },
+      {
+        "id": "boss-semester-leviathan",
+        "title": "The Capstone Leviathan",
+        "subtitle": "The Ultimate Final Sovereign of All Courses",
+        "maxHp": 2000,
+        "currentHp": 2000,
+        "deadlineDate": "2026-11-28",
+        "rewardXp": 4000,
+        "rewardCoins": 1600,
+        "isDefeated": false,
+        "bossType": "dragon"
+      }
+    ],
+    "quests": [
+      {
+        "id": "q-pomo-2026-08-15",
+        "title": "Scholar's Focus",
+        "description": "Complete at least 1 Pomodoro session today.",
+        "type": "daily",
+        "targetCount": 1,
+        "currentCount": 0,
+        "rewardXp": 80,
+        "rewardCoins": 40,
+        "isClaimed": false,
+        "category": "pomodoro"
+      },
+      {
+        "id": "q-todo-2026-08-15",
+        "title": "Bug Squasher",
+        "description": "Check off 2 quick mini-todos or tasks.",
+        "type": "daily",
+        "targetCount": 2,
+        "currentCount": 0,
+        "rewardXp": 65,
+        "rewardCoins": 30,
+        "isClaimed": false,
+        "category": "todo"
+      },
+      {
+        "id": "q-note-2026-08-15",
+        "title": "Knowledge Scribe",
+        "description": "Create or review a course lecture note in Obsidian.",
+        "type": "daily",
+        "targetCount": 1,
+        "currentCount": 0,
+        "rewardXp": 75,
+        "rewardCoins": 35,
+        "isClaimed": false,
+        "category": "note"
+      },
+      {
+        "id": "q-assign_1-2026-08-15",
+        "title": "Assignment Striker",
+        "description": "Check off 1 completed assignment or problem set.",
+        "type": "daily",
+        "targetCount": 1,
+        "currentCount": 0,
+        "rewardXp": 120,
+        "rewardCoins": 55,
+        "isClaimed": false,
+        "category": "assignment"
+      },
+      {
+        "id": "q-weekly_streak-2026-08-15",
+        "title": "Archmage's Consistency",
+        "description": "Maintain an active 3+ day study streak.",
+        "type": "weekly",
+        "targetCount": 3,
+        "currentCount": 1,
+        "rewardXp": 250,
+        "rewardCoins": 120,
+        "isClaimed": false,
+        "category": "streak"
+      }
+    ],
+    "dungeon": {
+      "active": false,
+      "dungeonName": "The Pointer Ruins",
+      "floor": 1,
+      "totalFloors": 4,
+      "bossHp": 100,
+      "maxBossHp": 100
+    }
+  },
+  "flashcards": {
+    "cards": [
+      {
+        "id": "fc-dsa-1",
+        "courseId": "ds",
+        "courseTitle": "Data Structure",
+        "question": "What is the average and worst-case time complexity of QuickSort?",
+        "answer": "Average: O(n log n), Worst-case: O(n²) when the pivot chosen is consistently the smallest or largest element.",
+        "options": [
+          "O(n log n) and O(n²)",
+          "O(n) and O(n log n)",
+          "O(1) and O(n)",
+          "O(n²) and O(n³)"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-dsa-2",
+        "courseId": "ds",
+        "courseTitle": "Data Structure",
+        "question": "In a Binary Search Tree (BST), what traversal yields elements in sorted ascending order?",
+        "answer": "In-order traversal (Left -> Root -> Right).",
+        "options": [
+          "In-order Traversal",
+          "Pre-order Traversal",
+          "Post-order Traversal",
+          "Level-order Traversal"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-dsa-3",
+        "courseId": "ds",
+        "courseTitle": "Data Structure",
+        "question": "Which algorithm finds the Shortest Path in a weighted graph with non-negative edge weights?",
+        "answer": "Dijkstra's Algorithm using a Min-Priority Queue with O((V + E) log V) time.",
+        "options": [
+          "Dijkstra's Algorithm",
+          "Kruskal's Algorithm",
+          "Floyd-Warshall",
+          "Tarjan's Algorithm"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-dsa-4",
+        "courseId": "ds",
+        "courseTitle": "Data Structure",
+        "question": "What is the maximum number of children an AVL tree node can balance with height difference |h_L - h_R|?",
+        "answer": "The balance factor must be at most 1 (i.e. -1, 0, or +1).",
+        "options": [
+          "At most 1",
+          "At most 2",
+          "At most 3",
+          "Unlimited"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-oop-1",
+        "courseId": "oop",
+        "courseTitle": "OOP",
+        "question": "What OOP mechanism allows a derived class to provide a specific implementation of a method declared in its base class?",
+        "answer": "Method Overriding (Dynamic/Runtime Polymorphism via virtual methods and vtables).",
+        "options": [
+          "Method Overriding",
+          "Method Overloading",
+          "Encapsulation",
+          "Static Binding"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-oop-2",
+        "courseId": "oop",
+        "courseTitle": "OOP",
+        "question": "What does the \"L\" in SOLID design principles stand for?",
+        "answer": "Liskov Substitution Principle (Objects of a superclass should be replaceable with objects of a subclass without breaking behavior).",
+        "options": [
+          "Liskov Substitution",
+          "Linear Inheritance",
+          "Layered Abstraction",
+          "Late Binding"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-oop-3",
+        "courseId": "oop",
+        "courseTitle": "OOP",
+        "question": "In C++, what happens when a base class destructor is NOT declared virtual?",
+        "answer": "Deleting a derived object through a base pointer causes Undefined Behavior and Memory Leaks.",
+        "options": [
+          "Memory Leaks & Undefined Behavior",
+          "Compilation Error",
+          "Automatic garbage collection",
+          "Stack overflow"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-math-1",
+        "courseId": "math",
+        "courseTitle": "Mathematics",
+        "question": "What is the condition for a square matrix A to be invertible (non-singular)?",
+        "answer": "The determinant det(A) must be non-zero (det(A) ≠ 0).",
+        "options": [
+          "det(A) ≠ 0",
+          "det(A) = 0",
+          "Trace(A) > 0",
+          "Rank(A) = 0"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-math-2",
+        "courseId": "math",
+        "courseTitle": "Mathematics",
+        "question": "According to Taylor's Theorem, what is the first derivative term of f(x) expanded around a?",
+        "answer": "f'(a) * (x - a)",
+        "options": [
+          "f'(a) * (x - a)",
+          "f''(a) * (x - a)²",
+          "f(a) / x",
+          "f'(x) * a"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-cs-1",
+        "courseId": "cs",
+        "courseTitle": "Computer Science",
+        "question": "What are the 4 necessary conditions for a Deadlock in operating systems?",
+        "answer": "Mutual Exclusion, Hold and Wait, No Preemption, and Circular Wait (Coffman Conditions).",
+        "options": [
+          "Mutual Exclusion, Hold & Wait, No Preemption, Circular Wait",
+          "Paging, Segmentation, Swapping, Thrashing",
+          "Atomic, Consistent, Isolated, Durable",
+          "Fetch, Decode, Execute, Writeback"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      },
+      {
+        "id": "fc-cs-2",
+        "courseId": "cs",
+        "courseTitle": "Computer Science",
+        "question": "What is the primary difference between a Process and a Thread?",
+        "answer": "Processes have independent virtual address spaces; Threads share the address space, heap, and open files of their parent process.",
+        "options": [
+          "Threads share memory address space; Processes do not",
+          "Processes run on GPU; Threads on CPU",
+          "Threads cannot be preempted",
+          "Processes have no stack"
+        ],
+        "correctOptionIndex": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "easeFactor": 2.5,
+        "nextReviewDate": "2026-08-14"
+      }
+    ],
+    "totalDuelsWon": 0,
+    "totalCardsReviewed": 0
+  },
+  "cgpa": {
+    "targetDegreeCgpa": 9,
+    "targetSemesterSgpa": 8.8,
+    "currentSemesterNumber": 4,
+    "currentSemesterCourses": [
+      {
+        "id": "course-dsa",
+        "courseName": "Data Structures & Algorithms",
+        "credits": 4,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 44,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 42
+      },
+      {
+        "id": "course-oop",
+        "courseName": "Object Oriented Programming",
+        "credits": 4,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 42,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 40
+      },
+      {
+        "id": "course-math",
+        "courseName": "Discrete Mathematics & Graph Theory",
+        "credits": 4,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 40,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 38
+      },
+      {
+        "id": "course-os",
+        "courseName": "Operating Systems",
+        "credits": 3,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 45,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 43
+      },
+      {
+        "id": "course-dsa-lab",
+        "courseName": "DSA Lab with C++",
+        "credits": 1.5,
+        "isLab": true,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 48,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 46
+      },
+      {
+        "id": "course-oop-lab",
+        "courseName": "Java / OOP Lab",
+        "credits": 1.5,
+        "isLab": true,
+        "cieMaxMarks": 50,
+        "cieObtainedMarks": 47,
+        "seeMaxMarks": 50,
+        "seePredictedMarks": 45
+      }
+    ],
+    "pastSemesters": [
+      {
+        "semesterNumber": 1,
+        "sgpa": 8.75,
+        "totalCredits": 20,
+        "semesterName": "Semester 1"
+      },
+      {
+        "semesterNumber": 2,
+        "sgpa": 8.9,
+        "totalCredits": 20,
+        "semesterName": "Semester 2"
+      },
+      {
+        "semesterNumber": 3,
+        "sgpa": 9.1,
+        "totalCredits": 22,
+        "semesterName": "Semester 3"
+      }
+    ]
+  },
+  "settings": {
+    "coursesFolder": "07 Notes/Courses",
+    "assignmentsFolder": "07 Notes/Assignments",
+    "resourcesFolder": "07 Notes/Resources",
+    "notesFolder": "07 Notes",
+    "examsFolder": "07 Notes/Exams"
+  }
+}

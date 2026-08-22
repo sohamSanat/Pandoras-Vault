@@ -1,0 +1,388 @@
+/* 1. FORCE JET-BLACK BACKGROUND & TERMINAL FONT GLOBALLY */
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content {
+    background-color: #000000 !important;
+    margin-bottom: 10px !important;
+}
+
+/* Apply the permanent Cosmic Border to the inner chat interface wrapper */
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content>div:first-child {
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    box-sizing: border-box !important;
+    height: 100% !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content * {
+    font-family: monospace !important;
+    font-size: 11.5px !important;
+}
+
+/* 2. REMOVE THE REDUNDANT OBSIDIAN TAB HEADER */
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-header {
+    display: none !important;
+}
+
+/* 3. ASSASSINATE JUNK ICONS (Sniper method) */
+.chat-icons-right {
+    display: none !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] button:has(.lucide-text-cursor-input),
+.workspace-leaf-content[data-type="copilot-chat-view"] button:has(.lucide-send) {
+    display: none !important;
+}
+
+/* 4. STRIP ONLY THE CHONKY WRAPPER BORDER AROUND THE INPUT */
+.workspace-leaf-content[data-type="copilot-chat-view"] div:has(> textarea) {
+    border: none !important;
+    background: transparent !important;
+    min-height: 0 !important;
+    /* Kill Copilot's default tw-min-h */
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+}
+
+/* 5. ASSASSINATE THE TOP "CHAT (FREE)" BUTTON */
+/* Target specifically the top menu button by its tw-justify-center class, avoiding the bottom tw-justify-start button */
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="menu"].tw-justify-center {
+    display: none !important;
+}
+
+/* 6. NATIVE SCROLLING TEXTAREA */
+.workspace-leaf-content[data-type="copilot-chat-view"] textarea {
+    background-color: #09090b !important;
+    border: 1px solid #3f3f46 !important;
+    border-radius: 6px !important;
+    color: #38bdf8 !important;
+    padding: 2px 4px !important;
+    margin: 0 !important;
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+
+    /* Allow native auto-size to work, only scroll if it gets too large */
+    overflow-y: auto !important;
+    max-height: 120px !important;
+
+    width: 100% !important;
+    resize: none !important;
+    line-height: 1 !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] textarea::placeholder {
+    color: #27272a !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] textarea:focus {
+    border-color: #8b5cf6 !important;
+}
+
+/* 7. STYLE THE AI MESSAGES */
+.workspace-leaf-content[data-type="copilot-chat-view"] .message-content * {
+    color: #38bdf8 !important;
+}
+
+/* 8. SQUASH THE "/" COMMAND POPUP & PREVIEW BOX */
+/* These menus are portaled to the HTML body, so we target them globally */
+div[data-radix-popper-content-wrapper],
+body>.suggestion-container {
+    z-index: 99999 !important;
+    max-width: 280px !important;
+    /* Hard constraint to stop it bleeding off the sidebar */
+}
+
+div[data-radix-popper-content-wrapper]>div,
+body>.suggestion-container {
+    background-color: #000000 !important;
+    border: 1px solid #3f3f46 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.9) !important;
+    overflow: hidden !important;
+    max-width: 280px !important;
+    /* Double-tap the width constraint */
+    width: 100% !important;
+}
+
+/* Force all text inside the popups to wrap and use terminal font */
+div[data-radix-popper-content-wrapper] *,
+body>.suggestion-container * {
+    font-family: monospace !important;
+    font-size: 11px !important;
+    color: #a1a1aa !important;
+    /* Dim grey for unselected text */
+
+    /* The secret sauce to stop the stretching */
+    white-space: normal !important;
+    word-break: break-word !important;
+    line-height: 1 !important;
+}
+
+/* Menu item padding & layout */
+div[data-radix-popper-content-wrapper] [role="menuitem"],
+div[data-radix-popper-content-wrapper] [role="option"],
+div[data-radix-popper-content-wrapper] [data-radix-collection-item],
+body>.suggestion-container .suggestion-item {
+    padding: 6px 10px !important;
+    border-radius: 4px !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+    display: block !important;
+}
+
+/* Neon cyan highlight for hovered/selected menu items */
+div[data-radix-popper-content-wrapper] [data-highlighted],
+div[data-radix-popper-content-wrapper] [role="menuitem"]:hover,
+div[data-radix-popper-content-wrapper] [role="option"]:hover,
+body>.suggestion-container .suggestion-item.is-selected {
+    background-color: #18181b !important;
+    color: #38bdf8 !important;
+}
+
+/* Ensure text changes color on hover */
+div[data-radix-popper-content-wrapper] [data-highlighted] *,
+div[data-radix-popper-content-wrapper] [role="menuitem"]:hover *,
+div[data-radix-popper-content-wrapper] [role="option"]:hover *,
+body>.suggestion-container .suggestion-item.is-selected * {
+    color: #38bdf8 !important;
+}
+
+/* 9. THE ULTIMATE SIDEBAR WIDTH CONSTRAINT */
+/* Forces all input wrappers and containers to strictly respect the sidebar width */
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content,
+.workspace-leaf-content[data-type="copilot-chat-view"] .view-content *,
+.workspace-leaf-content[data-type="copilot-chat-view"] div:has(> textarea),
+.workspace-leaf-content[data-type="copilot-chat-view"] div:has(> div > textarea) {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* Ensure the chat input container itself doesn't bleed out */
+.workspace-leaf-content[data-type="copilot-chat-view"] div[class*="tw-flex"]:has(textarea) {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+
+/* ========================================================
+   8. THE SLASH COMMAND ASSASSIN (EXACT MATCH)
+   ======================================================== */
+
+/* 1. Crush the inline 300px width using the exact Tailwind class combo */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end {
+    width: 220px !important;
+    max-width: 220px !important;
+    min-width: 220px !important;
+    background-color: transparent !important;
+}
+
+/* 2. Style the actual menu box inside that flex container */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end>div {
+    width: 100% !important;
+    background-color: #000000 !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    /* Cyan terminal border */
+    border-radius: 4px !important;
+    overflow: hidden !important;
+}
+
+/* 3. Kill the bulky Preview Box (it's usually the first child in this flex-col) */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end>div:nth-child(1):not(:last-child),
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end>div:has(.prompt-instructions),
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end>div:has(:contains("Preview")) {
+    display: none !important;
+}
+
+/* 4. Force text wrapping and terminal font globally inside the popup */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end * {
+    font-family: monospace !important;
+    font-size: 11px !important;
+    color: #a1a1aa !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    line-height: 1 !important;
+}
+
+/* 5. Menu item padding & dashed borders */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end [role="menuitem"],
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end .suggestion-item {
+    padding: 6px 8px !important;
+    border-bottom: 1px dashed #27272a !important;
+    cursor: pointer !important;
+    display: block !important;
+}
+
+/* 6. Neon Terminal Selection/Hover States */
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end [role="menuitem"]:hover,
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end [data-highlighted] {
+    background-color: #38bdf8 !important;
+}
+
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end [role="menuitem"]:hover *,
+div.tw-absolute.tw-z-\[9999\].tw-flex.tw-flex-col.tw-items-end [data-highlighted] * {
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+/* ========================================================
+   10. SHRINK MODEL SWITCHER & LEFT-TRUNCATE TEXT
+   ======================================================== */
+
+/* 1. Constrain the massive button wrapper */
+.workspace-leaf-content[data-type="copilot-chat-view"] button:has(svg.lucide-chevron-down) {
+    max-width: 140px !important;
+    /* Adjust to make the button smaller/larger */
+}
+
+/* 2. The Left-Truncation Illusion */
+.workspace-leaf-content[data-type="copilot-chat-view"] button:has(svg.lucide-chevron-down) span {
+    display: inline-block !important;
+    max-width: 100px !important;
+    /* Forces the text to overflow */
+    overflow: hidden !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+
+    /* The magic trick: flips the ellipsis to the left side */
+    direction: rtl !important;
+    text-align: right !important;
+}
+
+/* ========================================================
+   11. PLACEHOLDER TEXT OVERRIDE (EXACT DIV OVERLAY MATCH)
+   ======================================================== */
+
+/* 1. Collapse the original text to 0px so it disappears */
+.workspace-leaf-content[data-type="copilot-chat-view"] div.tw-pointer-events-none.tw-absolute.tw-select-none {
+    font-size: 0 !important;
+}
+
+/* 2. Inject your sleek custom text in its place */
+.workspace-leaf-content[data-type="copilot-chat-view"] div.tw-pointer-events-none.tw-absolute.tw-select-none::before {
+    content: "Ai powered Obsidian Helpbot" !important;
+    font-family: monospace !important;
+    font-size: 11.5px !important;
+    color: #52525b !important;
+    /* Terminal dim grey */
+    display: inline-block !important;
+}
+
+/* ========================================================
+   12. ASSASSINATE THE REDUNDANT "CHAT" BUTTON
+   ======================================================== */
+
+.workspace-leaf-content[data-type="copilot-chat-view"] button:has(svg.lucide-corner-down-left) {
+    display: none !important;
+}
+
+/* ========================================================
+   13. FIX BOTTOM MODEL SELECTOR OVERFLOW (TAILWIND MATCH)
+   ======================================================== */
+
+/* 1. Target the exact class signature of the bottom button */
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="menu"].tw-justify-start.tw-text-xs.tw-truncate {
+    margin: 0 !important;
+    /* Nukes the 8px bottom margin from Step 5 */
+    padding: 0 4px !important;
+    /* Slims down the padding */
+    border: none !important;
+    /* Kills the clashing border */
+    background-color: transparent !important;
+    /* Removes the bulky box */
+    height: auto !important;
+    line-height: 1 !important;
+}
+
+/* 2. Keep the neon text hover without the box styling */
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="menu"].tw-justify-start.tw-text-xs.tw-truncate:hover {
+    background-color: transparent !important;
+    border: none !important;
+    color: #38bdf8 !important;
+}
+
+/* ========================================================
+   14. BORDERLESS "@ ADD CONTEXT" BUTTON (TAILWIND MATCH)
+   ======================================================== */
+
+/* 1. Nuke the specific Tailwind border classes on the dialog button */
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="dialog"].tw-border.tw-border-solid {
+    border: none !important;
+    background-color: transparent !important;
+    padding-left: 2px !important;
+    padding-right: 4px !important;
+}
+
+/* 2. Keep the neon terminal hover effect */
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="dialog"].tw-border.tw-border-solid:hover {
+    color: #38bdf8 !important;
+    background-color: transparent !important;
+}
+
+/* ========================================================
+   15. SURGICAL CHAT BOX SQUASH (MAXIMUM SQUEEZE)
+   ======================================================== */
+.workspace-leaf-content[data-type="copilot-chat-view"] div[class*="tw-@container/chat-input"] {
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 6px !important;
+    /* Keep inner text close to the inner grey border */
+    padding-right: 6px !important;
+
+    margin-left: 12px !important;
+    /* Detach the ENTIRE grey box from the left blue border! */
+    margin-right: 12px !important;
+    /* Detach the ENTIRE grey box from the right blue border! */
+    margin-bottom: 12px !important;
+    /* Give it some breathing room from the bottom edge too! */
+    width: auto !important;
+    /* Ensure it respects the margins without bleeding out */
+
+    gap: 0 !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] form {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] div:has(> button[aria-haspopup="dialog"]) {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.workspace-leaf-content[data-type="copilot-chat-view"] button[aria-haspopup="dialog"].tw-border.tw-border-solid {
+    margin: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    line-height: 1 !important;
+}
+
+/* =========================================================================
+   SECTION 18: WATCHLOG HOVER CARD NEUTRALIZATION
+   ========================================================================= */
+
+/* 1. Remove the pop effect and enforce a pointer cursor on hover */
+.wl-reading-card,
+.wl-reading-card:hover,
+.wl-card,
+.wl-card:hover,
+.welcome-widget-cover,
+.welcome-widget-cover:hover {
+    transform: none !important;
+    transition: none !important;
+    cursor: pointer !important;
+    /* Mouse pointer hand cursor on hover */
+}
+
+/* 2. Completely hide the title/author overlay on hover */
+.wl-reading-card-overlay {
+    display: none !important;
+}
+
+/* 3. Hide the 3-dots menu button */
+.wl-reading-card-menu-btn {
+    display: none !important;
+}

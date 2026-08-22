@@ -1,0 +1,540 @@
+/* Productivity Hub Global Styles */
+
+.productivity-hub-container {
+    background: #000000;
+    color: #a1a1aa;
+    font-family: 'JetBrains Mono', 'Courier New', monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 16px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.hub-card {
+    background: rgba(20, 20, 20, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.hub-header {
+    color: #38bdf8;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.1);
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+}
+
+.hub-btn {
+    background: transparent;
+    border: 1px solid #c084fc;
+    color: #c084fc;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-size: 0.8em;
+}
+
+.hub-btn:hover {
+    background: rgba(192, 132, 252, 0.25);
+    color: #ffffff;
+}
+
+/* Grid Layout */
+.hub-layout {
+    display: flex;
+    flex-direction: column;
+}
+
+.hub-main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Card grids */
+.hub-habits-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 280px;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+}
+
+.hub-tasks-grid {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 250px;
+    gap: 16px;
+    overflow-x: auto;
+    padding-bottom: 12px;
+}
+
+/* Habit Card Layout */
+.habit-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background: rgba(20, 20, 20, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 16px;
+    color: #e4e4e7;
+}
+
+.habit-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.habit-title {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.habit-frequency {
+    font-size: 0.85em;
+    color: #a1a1aa;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.habit-cal-label {
+    font-size: 0.85em;
+    color: #a1a1aa;
+    margin-top: 8px;
+    margin-bottom: -4px;
+}
+
+.habit-calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    margin: 8px 0;
+}
+
+.calendar-day {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.75em;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #71717a;
+    transition: all 0.2s ease;
+}
+
+.cal-future {
+    opacity: 0.3;
+}
+
+.habit-status-row {
+    margin-top: 8px;
+    font-size: 0.9em;
+}
+
+.habit-completed-status {
+    transition: all 0.2s ease;
+    user-select: none;
+}
+
+.habit-stats {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+}
+
+.stat-text {
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+.progress-bar-wrap {
+    height: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    transition: width 0.3s ease;
+}
+
+.habit-streak {
+    font-size: 0.85em;
+    font-weight: 500;
+    color: #a1a1aa;
+    margin-top: 12px;
+}
+
+/* Calendar View */
+.calendar-view {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    background: rgba(20, 20, 20, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 12px;
+}
+
+.calendar-nav h3 {
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.calendar-nav-right {
+    display: flex;
+    gap: 8px;
+}
+
+.nav-btn, .nav-btn-icon {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e4e4e7;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.nav-btn-icon {
+    padding: 6px 10px;
+}
+
+.nav-btn:hover, .nav-btn-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.calendar-day-col {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    min-height: 200px;
+}
+
+.day-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    background: rgba(255, 255, 255, 0.03);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.day-name {
+    font-size: 0.85em;
+    color: #a1a1aa;
+    text-transform: uppercase;
+}
+
+.day-number {
+    font-weight: 600;
+}
+
+.day-add-btn {
+    background: transparent;
+    border: none;
+    color: #a1a1aa;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+.day-add-btn:hover {
+    color: #e4e4e7;
+}
+
+.day-content {
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.cal-task-item {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-left: 4px solid #38bdf8;
+    border-radius: 4px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.cal-task-title {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.cal-task-project {
+    font-size: 0.75em;
+    font-weight: 600;
+}
+
+.is-today .day-header {
+    background: rgba(56, 189, 248, 0.1);
+}
+
+.is-today .day-number {
+    color: #38bdf8;
+}
+
+.inline-add-box {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.inline-add-input, .inline-add-select {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: #e4e4e7;
+    border-radius: 2px;
+    padding: 4px;
+    font-size: 0.85em;
+    width: 100%;
+}
+
+.inline-add-actions {
+    display: flex;
+    gap: 4px;
+}
+
+.btn-save {
+    background: #38bdf8;
+    color: #000;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 0.8em;
+    cursor: pointer;
+    flex: 1;
+}
+
+.btn-cancel {
+    background: transparent;
+    color: #a1a1aa;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 4px 8px;
+    border-radius: 2px;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+/* Task Card V2 (Kanban Style) */
+.task-card-v2 {
+    display: flex;
+    flex-direction: column;
+    background: rgba(20, 20, 20, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    padding: 16px;
+    gap: 12px;
+    transition: all 0.2s ease;
+}
+
+.task-card-v2:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+    background: rgba(30, 30, 30, 0.4);
+}
+
+.tc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.tc-title {
+    font-weight: 600;
+    font-size: 1.05em;
+    color: #e4e4e7;
+    margin-right: 8px;
+    line-height: 1.3;
+}
+
+.tc-menu-wrap {
+    position: relative;
+}
+
+.tc-menu-btn {
+    background: transparent;
+    border: none;
+    color: #71717a;
+    cursor: pointer;
+    padding: 2px 6px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.tc-menu-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #e4e4e7;
+}
+
+.tc-menu-dropdown {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: #18181b;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    padding: 4px;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    min-width: 140px;
+}
+
+.tc-menu-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+    padding: 6px 12px;
+    color: #e4e4e7;
+    font-size: 0.9em;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.tc-menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tc-menu-item.danger {
+    color: #fb7185;
+}
+
+.tc-menu-item.danger:hover {
+    background: rgba(251, 113, 133, 0.1);
+}
+
+.tc-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.tc-detail-row {
+    display: flex;
+    align-items: center;
+    font-size: 0.85em;
+    gap: 6px;
+}
+
+.tc-project-name {
+    font-weight: 600;
+}
+
+.tc-status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(251, 113, 133, 0.1);
+    color: #fb7185;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 600;
+}
+
+.task-card-v2.is-completed .tc-status-pill {
+    background: rgba(52, 211, 153, 0.1);
+    color: #34d399;
+}
+
+.tc-status-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.tc-due-text {
+    color: #a1a1aa;
+}
+
+.tc-due-row.is-overdue .tc-due-text {
+    color: #fb7185;
+    font-weight: 600;
+}
+
+.tc-complete-btn {
+    width: 100%;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #e4e4e7;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-top: auto;
+}
+
+.tc-complete-btn:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.task-card-v2.is-completed {
+    opacity: 0.6;
+}
+.task-card-v2.is-completed .tc-complete-btn {
+    border-color: rgba(52, 211, 153, 0.3);
+    color: #34d399;
+    cursor: default;
+}
+.task-card-v2.is-completed .tc-title {
+    text-decoration: line-through;
+    color: #a1a1aa;
+}
+
+.habit-new-card {
+    min-height: 382px;
+}

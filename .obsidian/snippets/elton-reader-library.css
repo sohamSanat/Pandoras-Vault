@@ -1,0 +1,51 @@
+/* ========================================================
+   🌌 BOOK READER LIBRARY SIZE OVERRIDE
+   ======================================================== */
+
+/* Size the modal to match the workspace pane and push it to the right */
+body .modal-container.er-modal-lib .modal,
+body .er-modal-lib .modal,
+body .modal.er-modal-lib {
+    width: 79.5vw !important;
+    height: 100vh !important;
+    max-width: none !important;
+    max-height: none !important;
+    /* margin-left: auto absorbs leftover flex space, pushing it right */
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: 0.2vw !important;
+    border-radius: 16px !important;
+    box-shadow: 0 32px 90px rgba(0, 0, 0, 0.5) !important;
+}
+
+/* Ensure modal content takes full height */
+body .modal-container.er-modal-lib .modal-content,
+body .er-modal-lib .modal-content,
+body .modal.er-modal-lib .modal-content {
+    height: 100% !important;
+    max-height: none !important;
+    border-radius: inherit !important;
+}
+
+/* ========================================================
+   🖤 DEEP BLACK AMOLED THEME FOR LIBRARY
+   ======================================================== */
+body .modal-container.er-modal-lib .modal,
+body .er-modal-lib .modal,
+body .modal.er-modal-lib {
+    --er-lib-bg: #000000 !important;
+    --er-lib-card: #080808 !important;
+    --er-lib-text: #e0e0e0 !important;
+    --er-lib-border: #1a1a1a !important;
+    --er-lib-muted: #888888 !important;
+    background-color: var(--er-lib-bg) !important;
+    color: var(--er-lib-text) !important;
+}
+
+body .modal-container.er-modal-lib .modal-content,
+body .er-modal-lib .modal-content,
+body .modal.er-modal-lib .modal-content {
+    background-color: var(--er-lib-bg) !important;
+    color: var(--er-lib-text) !important;
+}

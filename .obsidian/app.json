@@ -1,0 +1,20 @@
+{
+  "propertiesInDocument": "hidden",
+  "rightToLeft": false,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true,
+  "showLineNumber": false,
+  "spellcheck": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "07 Notes",
+  "promptDelete": false,
+  "livePreview": true,
+  "attachmentFolderPath": "07 Notes/Images",
+  "settingsPopoutWindow": false,
+  "userIgnoreFilters": [
+    "Excalidraw/",
+    "06 Templates/",
+    "copilot/",
+    "WatchLog/"
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": false,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "file:/^(?:Programming|Playground|Designing|Bookmark|Video|Image|ImageGen|VideoGen|videoGen|Library|Ai|Learning|Productivity|Llm|Editor|Automation|Community|community|Animation|3d|Presentation|Piracy|Anime|anime|Game|Fun|Audio|SearchBots|searchbot|tts|Writing|Repacks|repacks|gacha|Food|football)$/",
+      "color": {
+        "a": 1,
+        "rgb": 576256
+      }
+    },
+    {
+      "query": "path:\"07 Notes\"",
+      "color": {
+        "a": 1,
+        "rgb": 5972991
+      }
+    },
+    {
+      "query": "path:\"01 Daily\"",
+      "color": {
+        "a": 1,
+        "rgb": 13569863
+      }
+    },
+    {
+      "query": "path:\"02 Weekly\"",
+      "color": {
+        "a": 1,
+        "rgb": 16723409
+      }
+    },
+    {
+      "query": "path:\"03 Monthly\"",
+      "color": {
+        "a": 1,
+        "rgb": 35839
+      }
+    },
+    {
+      "query": "path:\"04 Quarterly\"",
+      "color": {
+        "a": 1,
+        "rgb": 16773617
+      }
+    },
+    {
+      "query": "path:\"05 Yearly\"",
+      "color": {
+        "a": 1,
+        "rgb": 9233663
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 2.4,
+  "lineSizeMultiplier": 0.6665625,
+  "collapse-forces": true,
+  "centerStrength": 0.196875,
+  "repelStrength": 18,
+  "linkStrength": 0.2,
+  "linkDistance": 140,
+  "scale": 0.017,
+  "close": true
+}

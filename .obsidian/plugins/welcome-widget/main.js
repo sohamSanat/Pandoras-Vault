@@ -64,10 +64,6 @@ class WelcomeWidgetView extends obsidian.ItemView {
         hubSection.appendChild(btn1);
         hubSection.appendChild(btn2);
         hubSection.appendChild(btn3);
-
-        // ── Section 3: Mini Graph ──
-        const graphSection = container.createDiv({ cls: 'mini-graph-widget-container' });
-        await this.injectGraph(graphSection);
     }
 
     async onClose() {

@@ -26,9 +26,9 @@
   "welcome-widget",
   "persistent-graph",
   "cursor-smith",
-  "hub-links-widget",
   "productivity-hub",
   "star-view",
   "study-hub",
-  "obsidian-git"
+  "obsidian-git",
+  "hub-links-widget"
 ]

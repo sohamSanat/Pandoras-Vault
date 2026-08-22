@@ -31,11 +31,27 @@ const AMOLED_CSS = `
     [class*="content-container"],
     [class*="page-container"],
     [class*="root-container"],
+    [class*="source"],
+    [class*="chat"],
+    [class*="studio"],
+    [class*="notebook"],
+    [class*="tab-body"],
+    [class*="tab-content"],
+    [class*="panel"],
+    [class*="drawer"],
+    [class*="layout"],
+    [class*="view"],
     main, 
+    section,
+    article,
     mat-drawer-container, 
     mat-drawer-content, 
     mat-sidenav-container, 
     mat-sidenav-content,
+    mat-tab-body,
+    mat-tab-group,
+    .mat-mdc-tab-body-wrapper,
+    .mat-mdc-tab-body-content,
     .mat-drawer-container, 
     .mat-drawer-content,
     .mat-sidenav-container, 
@@ -44,7 +60,7 @@ const AMOLED_CSS = `
         background-color: #000000 !important;
     }
 
-    /* All Header, Toolbar, Nav, and App Bar containers */
+    /* All Header, Toolbar, Nav, App Bar, Tab Strips, and Sub-headers */
     header, 
     nav, 
     mat-toolbar,
@@ -53,15 +69,25 @@ const AMOLED_CSS = `
     .mat-toolbar-row,
     .mat-toolbar.mat-primary,
     .mat-toolbar-single-row,
+    mat-tab-header,
+    .mat-mdc-tab-header,
     .top-app-bar, 
     .app-header, 
     [role="banner"],
+    [role="tablist"],
+    [role="navigation"],
     [class*="header"],
     [class*="toolbar"],
     [class*="app-bar"],
     [class*="top-bar"],
     [class*="navbar"],
     [class*="navigation"],
+    [class*="tab-header"],
+    [class*="tab-bar"],
+    [class*="tab-nav"],
+    [class*="subheader"],
+    [class*="sub-header"],
+    [class*="action-bar"],
     app-header,
     header-component,
     top-bar-component,
@@ -95,6 +121,7 @@ const AMOLED_CSS = `
         letter-spacing: -0.3px !important;
     }
 
+    /* Notebook Cards in Dashboard */
     .notebook-card, 
     [class*="notebook-card"], 
     .create-card, 
@@ -116,30 +143,91 @@ const AMOLED_CSS = `
         border-color: rgba(56, 189, 248, 0.35) !important;
     }
 
-    [class*="source-panel"], 
-    [class*="studio-panel"], 
-    [class*="chat-panel"], 
-    [class*="panel-container"],
-    [class*="sources-container"],
-    [class*="chat-container"],
-    [class*="notes-container"],
-    [class*="studio-container"],
-    [class*="drawer"] {
-        background: #000000 !important;
-        background-color: #000000 !important;
-        border-color: rgba(255, 255, 255, 0.08) !important;
+    /* Studio Action Cards, Option Tiles, and Banner */
+    [class*="studio-card"],
+    [class*="action-card"],
+    [class*="card-grid"] > *,
+    [class*="grid"] > button,
+    [class*="grid"] > div,
+    [class*="tile"],
+    [class*="studio-tile"],
+    [class*="option-card"],
+    [class*="banner"],
+    [class*="language-selector"],
+    [class*="audio-overview-banner"] {
+        background: #06090e !important;
+        background-color: #06090e !important;
+        border: 1px solid rgba(255, 255, 255, 0.1) !important;
+        border-radius: 14px !important;
     }
 
-    textarea, 
-    input, 
-    [class*="chat-input"],
-    [class*="query-input"],
+    [class*="studio-card"]:hover,
+    [class*="action-card"]:hover,
+    [class*="grid"] > button:hover,
+    [class*="tile"]:hover,
+    [class*="option-card"]:hover {
+        background: #0f172a !important;
+        background-color: #0f172a !important;
+        border-color: rgba(56, 189, 248, 0.35) !important;
+    }
+
+    /* Sources Search Box, Chat Query Box & Footer Composer */
+    [class*="search-web"],
     [class*="search-box"],
-    [class*="input-container"] {
-        background: #0a0e17 !important;
-        background-color: #0a0e17 !important;
-        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+    [class*="search-bar"],
+    [class*="query-box"],
+    [class*="query-container"],
+    [class*="chat-input"],
+    [class*="prompt-box"],
+    [class*="composer"],
+    [class*="bottom-container"],
+    [class*="bottom-bar"],
+    [class*="footer"],
+    footer,
+    form {
+        background: #000000 !important;
+        background-color: #000000 !important;
+    }
+
+    /* Input wrappers inside Search and Chat */
+    [class*="search-box"] > div,
+    [class*="search-bar"] > div,
+    [class*="query-container"] > div,
+    [class*="chat-input"] > div,
+    [class*="composer"] > div,
+    [class*="input-wrapper"],
+    textarea,
+    input {
+        background: #06090e !important;
+        background-color: #06090e !important;
+        border: 1px solid rgba(255, 255, 255, 0.14) !important;
         color: #f8fafc !important;
+        border-radius: 12px !important;
+    }
+
+    /* Prompt suggestion chips & buttons in Chat & Sources */
+    [class*="prompt-button"],
+    [class*="prompt-chip"],
+    [class*="suggestion"],
+    [class*="chip"],
+    [class*="pill"],
+    mat-chip,
+    .mat-mdc-chip,
+    button[class*="pill"],
+    button[class*="chip"] {
+        background: #06090e !important;
+        background-color: #06090e !important;
+        border: 1px solid rgba(255, 255, 255, 0.15) !important;
+        color: #e2e8f0 !important;
+    }
+
+    [class*="prompt-button"]:hover,
+    [class*="prompt-chip"]:hover,
+    [class*="suggestion"]:hover,
+    button[class*="pill"]:hover {
+        background: #0f172a !important;
+        background-color: #0f172a !important;
+        border-color: rgba(56, 189, 248, 0.4) !important;
     }
 
     mat-dialog-container, 
@@ -404,11 +492,27 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                             document.body.style.setProperty('background-color', '#000000', 'important');
                         }
                         
+                        // Header elements
                         const headerElements = document.querySelectorAll('header, nav, mat-toolbar, mat-toolbar-row, .mat-toolbar, .mat-toolbar-row, [role="banner"], [class*="header"], [class*="top-bar"], [class*="app-bar"], [class*="navbar"], [class*="toolbar"], app-header, header-component');
                         headerElements.forEach(el => {
                             el.style.setProperty('background', '#000000', 'important');
                             el.style.setProperty('background-color', '#000000', 'important');
                             el.style.setProperty('border-bottom', '1px solid rgba(255, 255, 255, 0.08)', 'important');
+                        });
+
+                        // Sub-header, tab-header, chat action strips, footer composer
+                        const subBars = document.querySelectorAll('mat-tab-header, .mat-mdc-tab-header, [role="tablist"], [class*="tab-header"], [class*="sub-header"], [class*="subheader"], [class*="action-bar"], footer, [class*="footer"], [class*="bottom-bar"], [class*="bottom-container"], [class*="composer"]');
+                        subBars.forEach(el => {
+                            el.style.setProperty('background', '#000000', 'important');
+                            el.style.setProperty('background-color', '#000000', 'important');
+                        });
+
+                        // Studio cards & banner
+                        const studioCards = document.querySelectorAll('[class*="studio-card"], [class*="action-card"], [class*="banner"], [class*="language-selector"]');
+                        studioCards.forEach(el => {
+                            el.style.setProperty('background', '#06090e', 'important');
+                            el.style.setProperty('background-color', '#06090e', 'important');
+                            el.style.setProperty('border', '1px solid rgba(255, 255, 255, 0.1)', 'important');
                         });
                     };
 
@@ -444,6 +548,15 @@ class ObsidianBookLmPlugin extends obsidian.Plugin {
                                     parent.appendChild(customLogo);
                                 }
                             });
+
+                            // Text replacements in disclaimers and footer
+                            const walker = document.createTreeWalker(document.body || document.documentElement, NodeFilter.SHOW_TEXT, null, false);
+                            let node;
+                            while (node = walker.nextNode()) {
+                                if (node.nodeValue && node.nodeValue.includes('Gemini')) {
+                                    node.nodeValue = node.nodeValue.replace(/Gemini Notebook/g, 'Obsidian Notebook').replace(/Gemini/g, 'Obsidian');
+                                }
+                            }
 
                             if (document.title && (document.title.includes('Gemini') || document.title.includes('NotebookLM'))) {
                                 document.title = document.title.replace(/Gemini Notebook|NotebookLM/g, 'Obsidian Notebook');

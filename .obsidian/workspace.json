@@ -146,16 +146,6 @@
               "icon": "layout-dashboard",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "97e620f21b9cc12c",
-            "type": "leaf",
-            "state": {
-              "type": "welcome-widget-view",
-              "state": {},
-              "icon": "layout-dashboard",
-              "title": "Dashboard"
-            }
           }
         ]
       }

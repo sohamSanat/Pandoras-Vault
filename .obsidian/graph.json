@@ -8,7 +8,7 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "file:/^(?:Programming|Playground|Designing|Bookmark|Video|Image|ImageGen|VideoGen|videoGen|Library|Ai|Learning|Productivity|Llm|Editor|Automation|Community|community|Animation|3d|Presentation|Piracy|Anime|anime|Game|Fun|Audio|SearchBots|searchbot|tts|Writing|Repacks|repacks|gacha|Food|football)$/",
+      "query": "file:/(?:^|\\/)(?:Programming|Playground|Designing|Bookmark|Video|Image|ImageGen|VideoGen|videoGen|Library|Ai|Learning|Productivity|Llm|Editor|Automation|Community|community|Animation|3d|Presentation|Piracy|Anime|anime|Game|Fun|Audio|SearchBots|searchbot|tts|Writing|Repacks|repacks|gacha|Food|football)(?:\\.md)?$/i",
       "color": {
         "a": 1,
         "rgb": 576256

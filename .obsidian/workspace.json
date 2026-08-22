@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ecd43610f4d0a5ca",
+        "id": "44bb20f35f71ffba",
         "type": "tabs",
         "children": [
           {
-            "id": "7eb67099c9af85e8",
+            "id": "a5c2c8ec0d24f29a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "07 Notes/hello world.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "hello world"
+              "title": "New tab"
             }
           }
         ]
@@ -195,7 +191,7 @@
       "watchlog:Watchlog": false
     }
   },
-  "active": "7eb67099c9af85e8",
+  "active": "a5c2c8ec0d24f29a",
   "lastOpenFiles": [
     "07 Notes/hello world.md",
     "07 Notes/yoo gang whatsup.md",

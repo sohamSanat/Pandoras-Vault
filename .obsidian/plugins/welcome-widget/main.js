@@ -307,6 +307,14 @@ class WelcomeWidgetPlugin extends obsidian.Plugin {
             (leaf) => new WelcomeWidgetView(leaf, this)
         );
 
+        this.addCommand({
+            id: 'open-dashboard',
+            name: 'Open Dashboard',
+            callback: () => {
+                this.activateView();
+            }
+        });
+
         this.app.workspace.onLayoutReady(() => {
             // Clean up any ghost tabs from the previous separated sidebar view
             this.app.workspace.detachLeavesOfType('hub-links-widget-view');
@@ -330,6 +338,7 @@ class WelcomeWidgetPlugin extends obsidian.Plugin {
     async activateView() {
         const leaves = this.app.workspace.getLeavesOfType(VIEW_TYPE_WELCOME_WIDGET);
         if (leaves.length > 0) {
+            this.app.workspace.revealLeaf(leaves[0]);
             return;
         }
 
@@ -337,8 +346,9 @@ class WelcomeWidgetPlugin extends obsidian.Plugin {
         if (leaf) {
             await leaf.setViewState({
                 type: VIEW_TYPE_WELCOME_WIDGET,
-                active: false,
+                active: true,
             });
+            this.app.workspace.revealLeaf(leaf);
         }
     }
 }
